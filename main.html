@@ -1,0 +1,296 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		<meta http-equiv="content-language" content="kr"/>
+		
+		<link href="libs/css/bootstrap.min.css" rel="stylesheet">
+		<link href="libs/css/sweetalert2.min.css" rel="stylesheet">
+		<link href="resources/css/nav_section.min.css" rel="stylesheet">		
+		
+		<script src="libs/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+		<script src="libs/js/jquery-ui-1.9.1.min.js" type="text/javascript"></script>	
+		<script src="libs/js/sweetalert2.min.js" type="text/javascript"></script>
+		<script src="resources/js/generateIR.js" type="text/javascript"></script>
+		<script src="resources/js/buttonAction.js" type="text/javascript"></script>
+		<script src="resources/js/preference.js" type="text/javascript"></script>
+		<script src="resources/js/navbar_listener.js" type="text/javascript"></script>
+		
+		
+		<title>IRG(Integration Request document Generator)</title>	
+		
+	</head>
+	<body>
+		
+		<div class="class_irg_wrapper" id="id_irg_wrapper">
+			
+			<div class="class_irg_header" id="id_irg_header">
+				
+				<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+					
+					<a class="navbar-brand" href="#id_section_home" id="id_program_title">IRGenerator</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#id_navbarColor01" aria-controls="id_navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="id_navbarColor01">
+					
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item" id="id_navitem_home">
+								<a class="nav-link" id="id_navlink_home" href="#id_section_home">시작</a>
+							</li>
+
+							<li class="nav-item" id="id_navitem_preferences">
+								<a class="nav-link" id="id_navlink_preferences" href="#id_section_preferences">설정파일입력</a>
+							</li>
+							
+							<li class="nav-item" id="id_navitem_input_path">
+								<a class="nav-link" id="id_navlink_input_path" href="#id_section_input_path">경로입력</a>
+							</li>
+
+							<li class="nav-item" id="id_navitem_ir_gen">
+								<a class="nav-link" id="id_navlink_ir_gen" href="#id_section_ir_gen">IR문서생성</a>
+							</li>
+
+							<li class="nav-item" id="id_navitem_finish">
+								<a class="nav-link" id="id_navlink_finish" href="#id_section_finish">완료</a>
+							</li>							
+						  
+						</ul>
+						
+						<a class="irg_ci" href="#">
+							<img src="./resources/img/hyundai_ci_white.png" alt="현대로고"/>
+						</a>
+						
+					</div>
+					
+				</nav>	
+
+				<main id="id_main_pages">
+				
+					<section id="id_section_home">
+					
+						<div class="jumbotron">
+						
+							<h1 class="display-3" style="color:#2c3e50;font-size:40px">IRG(Integration Request document Generator)</h1>
+							<p class="lead">IRG(Integration Request document Generator)는 SVN으로부터 가져온 Base 코드 파일 리스트와 Update 코드 파일 리스트를 조합하여 메인 프로젝트의 IR 문서 또는 파생 프로젝트의 IR문서를 자동으로 생성하는 기능을 제공하는 도구입니다.</p>
+							<hr class="my-4">
+							<p style="font-size:20px">IRGenerator가 제공하는 특징은 아래와 같습니다.</p>
+							<li>설정파일과 연계한 프로젝트 정보 입력 및 정보 관리가 가능합니다.
+							</li>
+							<li>프로젝트 SVN 정보(파일 명, 리비전 번호, 파일 위치)를 자동 로드 후 출력합니다.
+							</li>
+							<li>메인 프로젝트와 파생 프로젝트 각각 용도에 맞게 IR 문서 출력이 가능합니다.
+							</li>							
+							<p class="lead" id= "id_irg_start">
+							<a class="btn btn-primary btn-lg" id="id_irg_start_btn" href="#id_section_preferences" role="button">IR생성 시작하기</a>
+							</p>
+						</div>	
+						
+					</section>
+
+					<section id="id_section_preferences" >
+					
+						<div id="id_preference_main">
+						
+							<button type="button" id="btAddPreference" class="btn btn-success">추가</button>
+							<button type="button" id="btRemovePreference" class="btn btn-danger">삭제</button>
+							<button type="button" id="btRemoveAllPreference" class="btn btn-danger">모두 삭제</button>
+					
+						</div>
+					
+					</section>
+					
+					<section id="id_section_input_path">
+					
+						<div class="input-group" id="id_section_home_basecode">
+							
+							<div class="input-group" id="section_home_lbl_basecode">
+								<label class="control-label" for="readOnlyInput">Base 코드 경로:</label>
+							</div>
+							
+							<div class="input-group" id="section_home_txt_basecode">
+															
+								<label class="input-group-append mb-0">
+								
+									<span class="btn btn-primary input-file-btn" id="id_search_basecode_path">
+										찾아보기... 
+										<input type="file" id="id_value_basecode_path" onchange="this.select(); document.getElementById('id_basecode_path').value=this.value;" hidden webkitdirectory directory multiple>
+									</span>
+									
+								</label>	
+								
+								<input type="text" class="form-control" id="id_basecode_path" placeholder="Base 코드 경로를 선택해주십시오." aria-describedby="fileHelp_basecode" readonly required>
+								
+							</div>							
+							
+						</div>
+						
+						
+
+
+						<div class="input-group" id="id_section_home_updatecode">
+							
+							<div class="input-group" id="section_home_lbl_basecode">
+								<label class="control-label" for="readOnlyInput">Update 코드 경로:</label>
+							</div>
+							
+							<div class="input-group" id="section_home_txt_updatecode">
+								
+								<label class="input-group-append mb-0">
+								
+									<span class="btn btn-primary input-file-btn" id="id_search_updatecode_path">
+										찾아보기...
+										<input type="file" id="id_value_updatecode_path" onchange="document.getElementById('id_updatecode_path').value=this.value;" hidden webkitdirectory directory multiple>
+									</span>
+									
+								</label>	
+								
+								<input type="text" class="form-control" id="id_updatecode_path" placeholder="Update 코드 경로를 선택해주십시오." aria-describedby="fileHelp_updatecode" readonly required>
+							</div>							
+							
+						</div>
+						
+						
+						
+
+						<div class="input-group" id="id_section_home_outputfolder">
+							
+							<div class="input-group" id="section_home_lbl_outputfolder">
+								<label class="control-label" for="readOnlyInput">IR문서 저장 경로:</label>
+							</div>
+							
+							<div class="input-group" id="section_home_txt_outputfolder">
+								
+								<label class="input-group-append mb-0">
+								
+									<span class="btn btn-primary input-file-btn" id="id_search_output_path">
+										찾아보기...
+										<input type="file" id="id_value_output_path" onchange="document.getElementById('id_output_path').value=this.value;" hidden webkitdirectory directory multiple>
+									</span>
+									
+								</label>	
+								
+								<input type="text" class="form-control input-file-dummy" id="id_output_path" placeholder="IR문서 저장 경로를 선택해주십시오." aria-describedby="fileHelp_outputfolder" readonly required>
+							</div>							
+													
+						</div>
+						
+						<div>
+							<a class="btn btn-primary btn-lg" id="id_next_to_irGen_btn" href="#id_section_ir_gen" role="button">다음</a>
+						</div>
+						
+					</section>
+					
+					<section id="id_section_ir_gen">
+
+						<div>
+							
+							<a class="btn btn-primary btn-lg" id="id_irGen_btn" role="button">IR 문서 생성</a>
+							<a class="btn btn-primary btn-lg" id="id_output_btn" role="button">저장경로열기</a>
+							<table class="table table-hover" id="id_irg_config_table">
+							
+								<thead>
+								
+									<tr>									
+										<th scope="col">프로젝트 명</th>
+										<th scope="col">메인 버전</th>
+										<th scope="col">서브 버전</th>
+										<th scope="col">SVN 유효성체크 성공여부</th>										
+										<th scope="col">버전 유효성체크 성공여부</th>										
+									</tr>
+									
+								</thead>
+								
+								
+								<tbody>
+									<!--
+									<tr class="table-active">
+										<th scope="row">Active</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+									
+									<tr>
+										<th scope="row">Default</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+									
+									<tr class="table-warning">
+										<th scope="row">Warning</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+									
+									<tr class="table-light">
+										<th scope="row">Light</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+
+									<tr>
+										<th scope="row">Default</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+
+									<tr>
+										<th scope="row">Default</th>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+										<td>Column content</td>
+									</tr>
+									-->
+								</tbody>
+								
+								
+							</table> 
+							
+						</div>
+						
+					</section>
+					
+					<section id="id_section_finish">완료...
+						
+						<div>
+							<a class="btn btn-primary btn-lg" id="id_back_to_start_btn" href="#id_section_home" role="button">처음으로</a>
+						</div>
+						
+					</section>
+				
+				</main>
+
+				
+			</div><!--end of header-->
+			
+			<div class="class_irg_footer" id="id_irg_footer">
+			
+				<div class="progress" id="id_progress_area">
+					<div class="progress-bar progress-bar-striped bg-success progress-bar-animated" id="id_progerss_bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+				</div>			
+				
+			</div>
+			
+		</div><!--end of body-->
+	
+	</body>
+	
+</html>
+
+

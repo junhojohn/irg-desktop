@@ -1,0 +1,58 @@
+section:not(:target):not(#id_main_pages),
+section:target ~ #id_main_pages {
+	display: none
+}
+
+
+#id_svn_check_btn{
+	margin: 30px;  
+	padding: 0; 	
+}
+
+#id_version_check_btn{
+	margin: 30px;  
+	padding: 0; 	
+}
+
+#id_version_init_btn{
+	margin: 30px;  
+	padding: 0; 	
+}
+
+#id_cardContainer{
+	margin-top: 20px;  
+	padding: 0; 
+}
+
+#id_irg_start{
+	margin-top: 20px;  
+	padding: 0; 
+}
+
+#id_main_pages{ 
+	margin: 30px;  
+	padding: 0; 
+}
+
+#id_section_home_basecode{
+	margin-bottom: 30px;  
+	padding: 0;	
+}
+
+#id_section_home_updatecode{
+	margin-bottom: 30px;  
+	padding: 0;	
+}
+
+#id_section_home_outputfolder{
+	margin-bottom: 30px;  
+	padding: 0;	
+}
+
+#id_irGen_btn{
+	color: white;
+}
+
+#id_output_btn{
+	color: white;	
+}
