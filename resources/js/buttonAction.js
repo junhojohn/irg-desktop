@@ -28,8 +28,9 @@ var irgModel = {
 	
 	baseCodePath : "",
 	updateCodePath : "",
-	irDocInputPath : "",
-	irDocOutputPath : "",
+	irDocInputPath : "D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates",
+	irDocInputFileName : "INPUT 0738_HNB_SW_Integration_Request_Gamma2_MPI_V15a.xlsm",
+	irDocOutputPath : "C:/Users/junhojohn/Desktop/새 폴더 (2)",
 	irgConfigInfoList : []
 	
 }
@@ -40,6 +41,10 @@ var eventCnt = 1;
  * 최초에 JS파일이 로딩될 때 1번만 발생
  */	
 $(document).ready(function() {
+	// 저장 폴더 경로 열기 버튼 클릭 시
+	$('#id_output_btn').on('click', (e) => {
+		window.open(irgModel.irDocOutputPath);
+	});
 	
 	// IR 생성 페이지에서 IRG 생성 버튼 클릭 시
 	$('#id_irGen_btn').on('click', (e) => {
@@ -51,24 +56,80 @@ $(document).ready(function() {
 		}
 				
 		/*로그 찍기*/
-		irgModel.baseCodePath = $('#id_basecode_path').val();
-		irgModel.updateCodePath = $('#id_updatecode_path').val();
-		irgModel.irDocOutputPath = $('#id_output_path').val();
 		printAllIrgModelInfoLog();
 		
+		/*프로그레스 다이얼로그 출력*/
+		var isSuccess = false;
+		Swal.fire({
+		  title: '진행 중',
+		  html: 'IR 문서를 생성 중입니다...',
+		  timer: 2000,
+		  onBeforeOpen: () => {
+			Swal.showLoading()
+			isSuccess = utils.generateIRDoc(irgModel);
+			logger.info("isSuccess:" + isSuccess);
+			Swal.increaseTimer(2000)
+
+		  },
+		  onClose: () => {
+
+		  }
+		}).then((result) => {
+		  if (
+			/* Read more about handling dismissals below */
+			result.dismiss === Swal.DismissReason.timer
+		  ) {
+			  
+			if(isSuccess){
+				// 출력폴더열기 버튼 활성화
+				$('#id_output_btn').attr('class', 'btn btn-primary btn-lg');
+				
+				// 성공 모달 출력(우측상단)
+				Swal.fire({
+				  position: 'top-end',
+				  type: 'success',
+				  title: 'IR 문서 생성을 완료하였습니다.',
+				  showConfirmButton: false,
+				  timer: 1500
+				})				
+			}else{
+				// 출력폴더열기 버튼 활성화
+				$('#id_output_btn').attr('class', 'btn btn-primary btn-lg disabled');
+				
+				// 실패 모달 출력(우측상단)
+				Swal.fire({
+				  position: 'top-end',
+				  type: 'error',
+				  title: 'IR 문서 생성을 실패했습니다.',
+				  showConfirmButton: false,
+				  timer: 1500
+				})								
+			}
+			
+		  }
+		})	
 	});
 	
-	$('#id_section_preferences').on("unload", (e) => {
-		logger.info("#id_section_preferences out!!!");
-	});
+	
 	// IR 생성 NAV BAR 클릭 시
-
 	$('#id_navlink_ir_gen').on('click', (e) => {
 		
 		logger.info("irgModel.irgConfigInfoList.length:" + irgModel.irgConfigInfoList.length);
+		logger.info("irgModel.baseCodePath:" + irgModel.baseCodePath);
+		logger.info("irgModel.updateCodePath:" + irgModel.updateCodePath);
+				
+		// 유효성 체크
+		var errorMessage = utils.validationCheckerForIRGenButton(irgModel);
 		
-		
-		// TODO 개선 필요. 아이템이 모두 삭제되었을 때에는 이전 데이터가 그대로 남아 있다.
+		if(errorMessage == null || errorMessage == ''){
+			logger.info('OK');	
+			$('#id_irGen_btn').attr('class', 'btn btn-primary btn-lg');
+		}else{			
+			logger.info(errorMessage);	
+			$('#id_irGen_btn').attr('class', 'btn btn-primary btn-lg disabled');
+		}		
+
+		// TODO 개선 필요. 아이템이 모두 삭제되었을 때에는 이전 데이터가 그대로 남아 있다.		
 		if(irgModel.irgConfigInfoList.length > 0){
 
 			updateUITable();
@@ -76,6 +137,25 @@ $(document).ready(function() {
 		}
 		
 	});
+
+	
+	// BaseCode 경로가 입력되었을 때
+	$('div').on('change', '#id_search_basecode_path', (e) => {
+		irgModel.baseCodePath = e.target.value;	
+		logger.info("3irgModel.baseCodePath:" + irgModel.baseCodePath);
+	});
+
+	// UpdateCode 경로가 입력되었을 때	
+	$('div').on('change', '#id_search_updatecode_path', (e) => {
+		irgModel.updateCodePath = e.target.value;
+		logger.info("irgModel.updateCodePath:" + irgModel.updateCodePath);
+	});
+
+	// IR 문서 출력 경로가 입력되었을 때	
+	$('div').on('change', '#id_search_output_path', (e) => {
+		irgModel.irDocOutputPath = e.target.value;		
+		logger.info("irgModel.irDocOutputPath:" + irgModel.irDocOutputPath);
+	});	
 
 });
 
@@ -281,6 +361,8 @@ var createModel = function(iCnt){
 		svnId : '',
 		/*입력 SVN 비밀번호*/	
 		svnPwd : '',
+		/*출력 파일 저장*/
+		outputFileName: '',
 		/*svn 연결 여부*/
 		isConnected: false,
 		/*버전 유효성 여부*/

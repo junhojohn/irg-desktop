@@ -20,5 +20,8 @@ export const renderImage = (instance, params) => {
 
   // Class
   image.className = swalClasses.image
-  dom.applyCustomClass(image, params, 'image')
+  dom.applyCustomClass(image, params.customClass, 'image')
+  if (params.imageClass) {
+    dom.addClass(image, params.imageClass)
+  }
 }

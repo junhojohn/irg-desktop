@@ -6,7 +6,7 @@
  */
 const appRoot = require('app-root-path'); 
 const logger = require(appRoot + '/resources/js/log/winston.js');
-
+const fs = require('fs');
 
 
 /**
@@ -36,7 +36,59 @@ var validationCheckerForSVNTestButton = function(irgConfigInfo){
 	
 }
 
+/**
+ * IR 문서를 생성한다.
+ */
+var generateIRDoc = function(irgModel){
 
+	/*
+	if(irgModel.irgConfigInfoList.length > 0){
+		
+		for(var i = 0 ; i < irgModel.irgConfigInfoList.length; i ++){
+		
+		}
+		
+	}
+	*/
+	logger.info("irgModel.irDocInputPath:" + irgModel.irDocInputPath);
+	logger.info("irgModel.irDocOutputPath:" + irgModel.irDocOutputPath);
+	return copyFileContent(irgModel.irDocInputPath + "/" + irgModel.irDocInputFileName, irgModel.irDocOutputPath + "/" + irgModel.irDocInputFileName);
+	
+}
+
+/**
+ * 파일을 복사한다.
+ */
+function copyFileContent(targetFilePath, destinationFilePath){
+	try{
+		fs.copyFileSync(targetFilePath, destinationFilePath);
+		return true;
+	}catch(e){
+		logger.error(e);
+		return false;
+	}		
+}
+
+/**
+ * 프로젝트 설정 등록된 개수에 대한 유효성 체크
+ */
+var validationCheckerForIRGenButton = function(irgModel){
+	if(irgModel.irgConfigInfoList.length <= 0){
+		return '프로젝트 설정을 등록해 주시기 바랍니다.';
+	}
+	
+	if(irgModel.baseCodePath == null || irgModel.baseCodePath == ''){
+		return 'BaseCode 경로를 입력해주시기 바랍니다.';
+	}
+	if(irgModel.updateCodePath == null || irgModel.updateCodePath == ''){
+		return 'UpdateCode 경로를 입력해주시기 바랍니다.';
+	}
+	if(irgModel.irDocOutputPath == null || irgModel.irDocOutputPath == ''){
+		return 'IR 문서 출력 경로를 입력해주시기 바랍니다.';
+	}	
+	
+	return '';
+}
 
 /**
  * 프로젝트 이름, 프로젝트 메인버전, 프로젝트 서브버전 입력에 대한 유효성 체크 
@@ -73,5 +125,7 @@ var validationCheckerForVersionTestButton = function(irgConfigInfo){
 module.exports = {
 	
 	validationCheckerForSVNTestButton: validationCheckerForSVNTestButton,
+	validationCheckerForIRGenButton: validationCheckerForIRGenButton,
+	generateIRDoc: generateIRDoc,
 	validationCheckerForVersionTestButton: validationCheckerForVersionTestButton
 };

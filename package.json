@@ -19,7 +19,7 @@
     "electron-packager": "^14.2.0",
     "node-svn-ultimate": "^1.2.1",
     "process": "^0.11.10",
-    "sweetalert2": "^9.7.2",
+    "sweetalert2": "^8.19.0",
     "winston": "^3.2.1"
   },
   "dependencies": {

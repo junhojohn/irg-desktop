@@ -3807,3 +3807,2243 @@ SyntaxError: Identifier 'appRoot' has already been declared
 2020-02-21T01:42:14.539Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
 2020-02-21T01:42:14.540Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
 2020-02-21T01:42:14.541Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr><tr class="table-warning"><th scope="row">TEST1</th><td>66</td><td>77</td><td>true</td><td>false</td></tr></tbody>
+2020-02-21T02:35:35.187Z [winston-test] error: uncaughtException: appRoot is not defined
+ReferenceError: appRoot is not defined
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\main.js:27:28)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at loadApplicationPackage (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\node_modules\electron\dist\resources\default_app.asar\main.js:109:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\node_modules\electron\dist\resources\default_app.asar\main.js:155:9)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+2020-02-21T02:35:39.697Z [winston-test] error: uncaughtException: appRoot is not defined
+ReferenceError: appRoot is not defined
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\main.js:27:28)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at loadApplicationPackage (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\node_modules\electron\dist\resources\default_app.asar\main.js:109:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\node_modules\electron\dist\resources\default_app.asar\main.js:155:9)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+2020-02-21T02:36:10.652Z [winston-test] error: uncaughtException: $ is not defined
+ReferenceError: $ is not defined
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\buttonAction.js:42:1)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\main.js:27:20)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+2020-02-21T02:37:05.323Z [winston-test] error: uncaughtException: $ is not defined
+ReferenceError: $ is not defined
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\buttonAction.js:42:1)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\main.js:27:20)
+    at Module._compile (internal/modules/cjs/loader.js:786:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+2020-02-21T03:01:11.749Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:11.751Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:12.796Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:12.797Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:22.365Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:22.366Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:22.844Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:22.844Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:23.804Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:23.804Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:31.788Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:31.788Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:33.524Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:01:33.524Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:09:37.581Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:09:37.584Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:09:39.627Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T03:09:39.628Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:32:39.396Z [winston-test] info: createModel called1
+2020-02-21T04:32:39.397Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:32:39.398Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:32:53.569Z [winston-test] info: deleteModel called1
+2020-02-21T04:32:53.571Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:32:53.572Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:32:55.352Z [winston-test] info: createModel called1
+2020-02-21T04:32:55.353Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:32:55.353Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:37:28.420Z [winston-test] info: createModel called1
+2020-02-21T04:37:28.421Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:37:28.422Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:37:35.242Z [winston-test] info: deleteModel called1
+2020-02-21T04:37:35.243Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:37:35.244Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:37:41.536Z [winston-test] info: createModel called1
+2020-02-21T04:37:41.536Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:37:41.536Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:38:29.955Z [winston-test] info: createModel called1
+2020-02-21T04:38:29.956Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:38:29.956Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.280Z [winston-test] info: 0
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.280Z [winston-test] info: 
+2020-02-21T04:38:37.281Z [winston-test] info: 1
+2020-02-21T04:38:37.281Z [winston-test] info: irgModel.irgConfigInfoList[0] {, , , , , , false}
+2020-02-21T04:50:31.594Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:50:31.596Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:50:32.712Z [winston-test] info: 
+2020-02-21T04:50:32.712Z [winston-test] info: 
+2020-02-21T04:50:32.712Z [winston-test] info: 
+2020-02-21T04:50:32.713Z [winston-test] info: 0
+2020-02-21T04:50:32.728Z [winston-test] info: 
+2020-02-21T04:50:32.728Z [winston-test] info: 
+2020-02-21T04:50:32.728Z [winston-test] info: 
+2020-02-21T04:50:32.729Z [winston-test] info: 0
+2020-02-21T04:50:34.906Z [winston-test] error: uncaughtException: Cannot set property 'textContent' of null
+TypeError: Cannot set property 'textContent' of null
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:69:18
+2020-02-21T04:52:36.887Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:52:36.889Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:52:38.903Z [winston-test] info: 
+2020-02-21T04:52:38.903Z [winston-test] info: 
+2020-02-21T04:52:38.903Z [winston-test] info: 
+2020-02-21T04:52:38.904Z [winston-test] info: 0
+2020-02-21T04:52:38.917Z [winston-test] info: 
+2020-02-21T04:52:38.917Z [winston-test] info: 
+2020-02-21T04:52:38.918Z [winston-test] info: 
+2020-02-21T04:52:38.918Z [winston-test] info: 0
+2020-02-21T04:52:41.096Z [winston-test] error: uncaughtException: Cannot set property 'textContent' of null
+TypeError: Cannot set property 'textContent' of null
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:69:18
+2020-02-21T04:54:06.096Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:54:06.099Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:54:06.679Z [winston-test] info: 
+2020-02-21T04:54:06.679Z [winston-test] info: 
+2020-02-21T04:54:06.680Z [winston-test] info: 
+2020-02-21T04:54:06.680Z [winston-test] info: 0
+2020-02-21T04:54:06.693Z [winston-test] info: 
+2020-02-21T04:54:06.693Z [winston-test] info: 
+2020-02-21T04:54:06.693Z [winston-test] info: 
+2020-02-21T04:54:06.694Z [winston-test] info: 0
+2020-02-21T04:54:08.962Z [winston-test] error: uncaughtException: Cannot read property 'querySelector' of null
+TypeError: Cannot read property 'querySelector' of null
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:68:24
+2020-02-21T04:55:17.402Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:55:17.404Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:55:18.015Z [winston-test] info: 
+2020-02-21T04:55:18.016Z [winston-test] info: 
+2020-02-21T04:55:18.016Z [winston-test] info: 
+2020-02-21T04:55:18.017Z [winston-test] info: 0
+2020-02-21T04:55:18.028Z [winston-test] info: 
+2020-02-21T04:55:18.029Z [winston-test] info: 
+2020-02-21T04:55:18.029Z [winston-test] info: 
+2020-02-21T04:55:18.029Z [winston-test] info: 0
+2020-02-21T04:55:35.935Z [winston-test] info: 
+2020-02-21T04:55:35.936Z [winston-test] info: 
+2020-02-21T04:55:35.936Z [winston-test] info: 
+2020-02-21T04:55:35.937Z [winston-test] info: 0
+2020-02-21T04:55:35.941Z [winston-test] info: 
+2020-02-21T04:55:35.941Z [winston-test] info: 
+2020-02-21T04:55:35.941Z [winston-test] info: 
+2020-02-21T04:55:35.942Z [winston-test] info: 0
+2020-02-21T04:55:40.663Z [winston-test] info: 
+2020-02-21T04:55:40.663Z [winston-test] info: 
+2020-02-21T04:55:40.664Z [winston-test] info: 
+2020-02-21T04:55:40.664Z [winston-test] info: 0
+2020-02-21T04:55:40.668Z [winston-test] info: 
+2020-02-21T04:55:40.668Z [winston-test] info: 
+2020-02-21T04:55:40.669Z [winston-test] info: 
+2020-02-21T04:55:40.669Z [winston-test] info: 0
+2020-02-21T04:56:14.633Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:56:14.635Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:56:15.166Z [winston-test] info: 
+2020-02-21T04:56:15.167Z [winston-test] info: 
+2020-02-21T04:56:15.167Z [winston-test] info: 
+2020-02-21T04:56:15.167Z [winston-test] info: 0
+2020-02-21T04:56:15.178Z [winston-test] info: 
+2020-02-21T04:56:15.178Z [winston-test] info: 
+2020-02-21T04:56:15.178Z [winston-test] info: 
+2020-02-21T04:56:15.179Z [winston-test] info: 0
+2020-02-21T04:56:17.445Z [winston-test] error: uncaughtException: Cannot read property 'querySelector' of null
+TypeError: Cannot read property 'querySelector' of null
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:68:24
+2020-02-21T04:56:59.906Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:56:59.908Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:57:00.775Z [winston-test] info: 
+2020-02-21T04:57:00.775Z [winston-test] info: 
+2020-02-21T04:57:00.775Z [winston-test] info: 
+2020-02-21T04:57:00.775Z [winston-test] info: 0
+2020-02-21T04:57:00.786Z [winston-test] info: 
+2020-02-21T04:57:00.786Z [winston-test] info: 
+2020-02-21T04:57:00.787Z [winston-test] info: 
+2020-02-21T04:57:00.787Z [winston-test] info: 0
+2020-02-21T04:57:03.061Z [winston-test] error: uncaughtException: Cannot read property 'querySelector' of null
+TypeError: Cannot read property 'querySelector' of null
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:68:24
+2020-02-21T04:57:22.481Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:57:22.483Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:57:22.990Z [winston-test] info: 
+2020-02-21T04:57:22.991Z [winston-test] info: 
+2020-02-21T04:57:22.991Z [winston-test] info: 
+2020-02-21T04:57:22.991Z [winston-test] info: 0
+2020-02-21T04:57:23.010Z [winston-test] info: 
+2020-02-21T04:57:23.011Z [winston-test] info: 
+2020-02-21T04:57:23.011Z [winston-test] info: 
+2020-02-21T04:57:23.011Z [winston-test] info: 0
+2020-02-21T04:59:01.928Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:59:01.930Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:59:05.591Z [winston-test] info: 
+2020-02-21T04:59:05.591Z [winston-test] info: 
+2020-02-21T04:59:05.592Z [winston-test] info: 
+2020-02-21T04:59:05.592Z [winston-test] info: 0
+2020-02-21T04:59:05.683Z [winston-test] error: uncaughtException: Console is not defined
+ReferenceError: Console is not defined
+    at HTMLAnchorElement.<anonymous> (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:61:1)
+    at HTMLAnchorElement.dispatch (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:4351)
+    at HTMLAnchorElement.i (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:328)
+2020-02-21T04:59:24.936Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:59:24.937Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T04:59:27.214Z [winston-test] info: 
+2020-02-21T04:59:27.215Z [winston-test] info: 
+2020-02-21T04:59:27.215Z [winston-test] info: 
+2020-02-21T04:59:27.216Z [winston-test] info: 0
+2020-02-21T04:59:27.228Z [winston-test] info: 
+2020-02-21T04:59:27.228Z [winston-test] info: 
+2020-02-21T04:59:27.228Z [winston-test] info: 
+2020-02-21T04:59:27.229Z [winston-test] info: 0
+2020-02-21T05:00:40.592Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:00:40.594Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:00:43.574Z [winston-test] info: 
+2020-02-21T05:00:43.575Z [winston-test] info: 
+2020-02-21T05:00:43.575Z [winston-test] info: 
+2020-02-21T05:00:43.575Z [winston-test] info: 0
+2020-02-21T05:00:43.587Z [winston-test] info: 
+2020-02-21T05:00:43.587Z [winston-test] info: 
+2020-02-21T05:00:43.587Z [winston-test] info: 
+2020-02-21T05:00:43.588Z [winston-test] info: 0
+2020-02-21T05:01:10.801Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:01:10.803Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:01:12.479Z [winston-test] info: 
+2020-02-21T05:01:12.479Z [winston-test] info: 
+2020-02-21T05:01:12.480Z [winston-test] info: 
+2020-02-21T05:01:12.480Z [winston-test] info: 0
+2020-02-21T05:01:12.493Z [winston-test] info: 
+2020-02-21T05:01:12.494Z [winston-test] info: 
+2020-02-21T05:01:12.494Z [winston-test] info: 
+2020-02-21T05:01:12.494Z [winston-test] info: 0
+2020-02-21T05:03:06.319Z [winston-test] error: uncaughtException: Identifier 'appRoot' has already been declared
+SyntaxError: Identifier 'appRoot' has already been declared
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/preference.js:1:1
+2020-02-21T05:03:34.025Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:03:34.027Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:03:35.926Z [winston-test] info: 
+2020-02-21T05:03:35.926Z [winston-test] info: 
+2020-02-21T05:03:35.927Z [winston-test] info: 
+2020-02-21T05:03:35.927Z [winston-test] info: 0
+2020-02-21T05:03:35.939Z [winston-test] info: 
+2020-02-21T05:03:35.939Z [winston-test] info: 
+2020-02-21T05:03:35.939Z [winston-test] info: 
+2020-02-21T05:03:35.940Z [winston-test] info: 0
+2020-02-21T05:07:48.002Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:07:48.005Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:07:51.070Z [winston-test] info: 
+2020-02-21T05:07:51.070Z [winston-test] info: 
+2020-02-21T05:07:51.071Z [winston-test] info: 
+2020-02-21T05:07:51.071Z [winston-test] info: 0
+2020-02-21T05:07:51.081Z [winston-test] info: 
+2020-02-21T05:07:51.081Z [winston-test] info: 
+2020-02-21T05:07:51.082Z [winston-test] info: 
+2020-02-21T05:07:51.082Z [winston-test] info: 0
+2020-02-21T05:09:50.455Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:09:50.457Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:09:53.310Z [winston-test] info: 
+2020-02-21T05:09:53.310Z [winston-test] info: 
+2020-02-21T05:09:53.310Z [winston-test] info: 
+2020-02-21T05:09:53.310Z [winston-test] info: 0
+2020-02-21T05:09:53.323Z [winston-test] info: 
+2020-02-21T05:09:53.323Z [winston-test] info: 
+2020-02-21T05:09:53.323Z [winston-test] info: 
+2020-02-21T05:09:53.324Z [winston-test] info: 0
+2020-02-21T05:11:51.816Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:11:51.817Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:11:54.110Z [winston-test] info: 
+2020-02-21T05:11:54.110Z [winston-test] info: 
+2020-02-21T05:11:54.110Z [winston-test] info: 
+2020-02-21T05:11:54.110Z [winston-test] info: 0
+2020-02-21T05:11:54.124Z [winston-test] info: 
+2020-02-21T05:11:54.125Z [winston-test] info: 
+2020-02-21T05:11:54.125Z [winston-test] info: 
+2020-02-21T05:11:54.125Z [winston-test] info: 0
+2020-02-21T05:12:01.597Z [winston-test] info: 
+2020-02-21T05:12:01.597Z [winston-test] info: 
+2020-02-21T05:12:01.597Z [winston-test] info: 
+2020-02-21T05:12:01.598Z [winston-test] info: 0
+2020-02-21T05:12:01.601Z [winston-test] info: 
+2020-02-21T05:12:01.601Z [winston-test] info: 
+2020-02-21T05:12:01.601Z [winston-test] info: 
+2020-02-21T05:12:01.601Z [winston-test] info: 0
+2020-02-21T05:12:36.016Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:12:36.019Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:12:38.285Z [winston-test] info: 
+2020-02-21T05:12:38.285Z [winston-test] info: 
+2020-02-21T05:12:38.285Z [winston-test] info: 
+2020-02-21T05:12:38.286Z [winston-test] info: 0
+2020-02-21T05:12:38.298Z [winston-test] info: 
+2020-02-21T05:12:38.298Z [winston-test] info: 
+2020-02-21T05:12:38.298Z [winston-test] info: 
+2020-02-21T05:12:38.298Z [winston-test] info: 0
+2020-02-21T05:13:51.848Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:13:51.851Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:13:52.366Z [winston-test] info: 
+2020-02-21T05:13:52.367Z [winston-test] info: 
+2020-02-21T05:13:52.367Z [winston-test] info: 
+2020-02-21T05:13:52.367Z [winston-test] info: 0
+2020-02-21T05:13:52.384Z [winston-test] info: 
+2020-02-21T05:13:52.384Z [winston-test] info: 
+2020-02-21T05:13:52.384Z [winston-test] info: 
+2020-02-21T05:13:52.385Z [winston-test] info: 0
+2020-02-21T05:14:25.048Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:14:25.050Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:14:25.693Z [winston-test] info: 
+2020-02-21T05:14:25.694Z [winston-test] info: 
+2020-02-21T05:14:25.694Z [winston-test] info: 
+2020-02-21T05:14:25.694Z [winston-test] info: 0
+2020-02-21T05:14:25.707Z [winston-test] info: 
+2020-02-21T05:14:25.708Z [winston-test] info: 
+2020-02-21T05:14:25.708Z [winston-test] info: 
+2020-02-21T05:14:25.709Z [winston-test] info: 0
+2020-02-21T05:14:52.125Z [winston-test] info: 
+2020-02-21T05:14:52.126Z [winston-test] info: 
+2020-02-21T05:14:52.126Z [winston-test] info: 
+2020-02-21T05:14:52.126Z [winston-test] info: 0
+2020-02-21T05:14:52.129Z [winston-test] info: 
+2020-02-21T05:14:52.130Z [winston-test] info: 
+2020-02-21T05:14:52.130Z [winston-test] info: 
+2020-02-21T05:14:52.131Z [winston-test] info: 0
+2020-02-21T05:14:54.701Z [winston-test] info: 
+2020-02-21T05:14:54.702Z [winston-test] info: 
+2020-02-21T05:14:54.702Z [winston-test] info: 
+2020-02-21T05:14:54.702Z [winston-test] info: 0
+2020-02-21T05:14:54.704Z [winston-test] info: 
+2020-02-21T05:14:54.704Z [winston-test] info: 
+2020-02-21T05:14:54.704Z [winston-test] info: 
+2020-02-21T05:14:54.704Z [winston-test] info: 0
+2020-02-21T05:17:11.952Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:17:11.954Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:17:12.518Z [winston-test] info: 
+2020-02-21T05:17:12.519Z [winston-test] info: 
+2020-02-21T05:17:12.519Z [winston-test] info: 
+2020-02-21T05:17:12.519Z [winston-test] info: 0
+2020-02-21T05:17:12.530Z [winston-test] info: 
+2020-02-21T05:17:12.531Z [winston-test] info: 
+2020-02-21T05:17:12.531Z [winston-test] info: 
+2020-02-21T05:17:12.531Z [winston-test] info: 0
+2020-02-21T05:24:54.981Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:24:54.985Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:24:55.719Z [winston-test] info: 
+2020-02-21T05:24:55.719Z [winston-test] info: 
+2020-02-21T05:24:55.720Z [winston-test] info: 
+2020-02-21T05:24:55.720Z [winston-test] info: 0
+2020-02-21T05:24:55.734Z [winston-test] info: 
+2020-02-21T05:24:55.735Z [winston-test] info: 
+2020-02-21T05:24:55.735Z [winston-test] info: 
+2020-02-21T05:24:55.736Z [winston-test] info: 0
+2020-02-21T05:25:00.797Z [winston-test] info: 
+2020-02-21T05:25:00.797Z [winston-test] info: 
+2020-02-21T05:25:00.797Z [winston-test] info: 
+2020-02-21T05:25:00.797Z [winston-test] info: 0
+2020-02-21T05:25:00.800Z [winston-test] info: 
+2020-02-21T05:25:00.801Z [winston-test] info: 
+2020-02-21T05:25:00.801Z [winston-test] info: 
+2020-02-21T05:25:00.801Z [winston-test] info: 0
+2020-02-21T05:26:59.055Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:26:59.057Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:26:59.740Z [winston-test] info: 
+2020-02-21T05:26:59.741Z [winston-test] info: 
+2020-02-21T05:26:59.741Z [winston-test] info: 
+2020-02-21T05:26:59.741Z [winston-test] info: 0
+2020-02-21T05:26:59.752Z [winston-test] info: 
+2020-02-21T05:26:59.752Z [winston-test] info: 
+2020-02-21T05:26:59.753Z [winston-test] info: 
+2020-02-21T05:26:59.753Z [winston-test] info: 0
+2020-02-21T05:27:02.748Z [winston-test] info: 
+2020-02-21T05:27:02.748Z [winston-test] info: 
+2020-02-21T05:27:02.749Z [winston-test] info: 
+2020-02-21T05:27:02.749Z [winston-test] info: 0
+2020-02-21T05:27:02.752Z [winston-test] info: 
+2020-02-21T05:27:02.752Z [winston-test] info: 
+2020-02-21T05:27:02.752Z [winston-test] info: 
+2020-02-21T05:27:02.752Z [winston-test] info: 0
+2020-02-21T05:28:00.943Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:28:00.944Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:28:02.005Z [winston-test] info: 
+2020-02-21T05:28:02.005Z [winston-test] info: 
+2020-02-21T05:28:02.006Z [winston-test] info: 
+2020-02-21T05:28:02.006Z [winston-test] info: 0
+2020-02-21T05:28:02.018Z [winston-test] info: 
+2020-02-21T05:28:02.019Z [winston-test] info: 
+2020-02-21T05:28:02.019Z [winston-test] info: 
+2020-02-21T05:28:02.019Z [winston-test] info: 0
+2020-02-21T05:28:08.708Z [winston-test] info: 
+2020-02-21T05:28:08.709Z [winston-test] info: 
+2020-02-21T05:28:08.709Z [winston-test] info: 
+2020-02-21T05:28:08.709Z [winston-test] info: 0
+2020-02-21T05:28:08.711Z [winston-test] info: 
+2020-02-21T05:28:08.712Z [winston-test] info: 
+2020-02-21T05:28:08.712Z [winston-test] info: 
+2020-02-21T05:28:08.712Z [winston-test] info: 0
+2020-02-21T05:28:22.124Z [winston-test] info: 
+2020-02-21T05:28:22.125Z [winston-test] info: 
+2020-02-21T05:28:22.125Z [winston-test] info: 
+2020-02-21T05:28:22.125Z [winston-test] info: 0
+2020-02-21T05:28:22.127Z [winston-test] info: 
+2020-02-21T05:28:22.127Z [winston-test] info: 
+2020-02-21T05:28:22.127Z [winston-test] info: 
+2020-02-21T05:28:22.127Z [winston-test] info: 0
+2020-02-21T05:31:23.847Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:31:23.850Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:31:24.540Z [winston-test] info: 
+2020-02-21T05:31:24.541Z [winston-test] info: 
+2020-02-21T05:31:24.541Z [winston-test] info: 
+2020-02-21T05:31:24.541Z [winston-test] info: 0
+2020-02-21T05:31:24.554Z [winston-test] info: 
+2020-02-21T05:31:24.554Z [winston-test] info: 
+2020-02-21T05:31:24.554Z [winston-test] info: 
+2020-02-21T05:31:24.555Z [winston-test] info: 0
+2020-02-21T05:31:49.384Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:31:49.386Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:31:50.718Z [winston-test] info: 
+2020-02-21T05:31:50.718Z [winston-test] info: 
+2020-02-21T05:31:50.719Z [winston-test] info: 
+2020-02-21T05:31:50.719Z [winston-test] info: 0
+2020-02-21T05:31:50.732Z [winston-test] info: 
+2020-02-21T05:31:50.732Z [winston-test] info: 
+2020-02-21T05:31:50.732Z [winston-test] info: 
+2020-02-21T05:31:50.733Z [winston-test] info: 0
+2020-02-21T05:32:16.447Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:32:16.450Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:32:17.397Z [winston-test] info: 
+2020-02-21T05:32:17.397Z [winston-test] info: 
+2020-02-21T05:32:17.397Z [winston-test] info: 
+2020-02-21T05:32:17.398Z [winston-test] info: 0
+2020-02-21T05:32:17.414Z [winston-test] info: 
+2020-02-21T05:32:17.414Z [winston-test] info: 
+2020-02-21T05:32:17.414Z [winston-test] info: 
+2020-02-21T05:32:17.415Z [winston-test] info: 0
+2020-02-21T05:32:33.645Z [winston-test] info: 
+2020-02-21T05:32:33.645Z [winston-test] info: 
+2020-02-21T05:32:33.645Z [winston-test] info: 
+2020-02-21T05:32:33.645Z [winston-test] info: 0
+2020-02-21T05:32:33.647Z [winston-test] info: 
+2020-02-21T05:32:33.648Z [winston-test] info: 
+2020-02-21T05:32:33.648Z [winston-test] info: 
+2020-02-21T05:32:33.648Z [winston-test] info: 0
+2020-02-21T05:32:47.036Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:32:47.036Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:32:53.876Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:32:53.876Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:39:01.314Z [winston-test] error: uncaughtException: Invalid shorthand property initializer
+D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\Utils.js:98
+	validationCheckerForIRGenButton = validationCheckerForIRGenButton,
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:265:10)
+    at Object.runInThisContext (vm.js:313:10)
+    at Module._compile (internal/modules/cjs/loader.js:712:26)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:20:13
+2020-02-21T05:39:01.386Z [winston-test] error: uncaughtException: Invalid shorthand property initializer
+D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\Utils.js:98
+	validationCheckerForIRGenButton = validationCheckerForIRGenButton,
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:265:10)
+    at Object.runInThisContext (vm.js:313:10)
+    at Module._compile (internal/modules/cjs/loader.js:712:26)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\buttonAction.js:20:13)
+2020-02-21T05:44:06.743Z [winston-test] error: uncaughtException: Invalid shorthand property initializer
+D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\Utils.js:98
+	validationCheckerForIRGenButton = validationCheckerForIRGenButton,
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:265:10)
+    at Object.runInThisContext (vm.js:313:10)
+    at Module._compile (internal/modules/cjs/loader.js:712:26)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:20:13
+2020-02-21T05:44:06.817Z [winston-test] error: uncaughtException: Invalid shorthand property initializer
+D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\Utils.js:98
+	validationCheckerForIRGenButton = validationCheckerForIRGenButton,
+	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid shorthand property initializer
+    at new Script (vm.js:83:7)
+    at createScript (vm.js:265:10)
+    at Object.runInThisContext (vm.js:313:10)
+    at Module._compile (internal/modules/cjs/loader.js:712:26)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:798:10)
+    at Module.load (internal/modules/cjs/loader.js:645:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:560:12)
+    at Module.require (internal/modules/cjs/loader.js:685:19)
+    at require (internal/modules/cjs/helpers.js:16:16)
+    at Object.<anonymous> (D:\00. Pioneer\f.스터디\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\resources\js\buttonAction.js:20:13)
+2020-02-21T05:45:59.845Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:45:59.846Z [winston-test] info: OK
+2020-02-21T05:45:59.930Z [winston-test] error: uncaughtException: iCnt is not defined
+ReferenceError: iCnt is not defined
+    at HTMLAnchorElement.<anonymous> (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:114:24)
+    at HTMLAnchorElement.dispatch (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:4351)
+    at HTMLAnchorElement.i (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:328)
+2020-02-21T05:46:30.071Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:46:30.073Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:46:30.156Z [winston-test] error: uncaughtException: iCnt is not defined
+ReferenceError: iCnt is not defined
+    at HTMLAnchorElement.<anonymous> (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/resources/js/buttonAction.js:117:24)
+    at HTMLAnchorElement.dispatch (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:4351)
+    at HTMLAnchorElement.i (file:///D:/00.%20Pioneer/f.%EC%8A%A4%ED%84%B0%EB%94%94/2020/IRGenerator%20v2/ELECTRON_WORKSPACE/irg-desktop/libs/js/jquery-1.7.1.min.js:3:328)
+2020-02-21T05:47:25.495Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:47:25.497Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:47:25.497Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:47:25.498Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:47:27.316Z [winston-test] info: 
+2020-02-21T05:47:27.317Z [winston-test] info: 
+2020-02-21T05:47:27.317Z [winston-test] info: 
+2020-02-21T05:47:27.317Z [winston-test] info: 0
+2020-02-21T05:47:27.332Z [winston-test] info: 
+2020-02-21T05:47:27.332Z [winston-test] info: 
+2020-02-21T05:47:27.333Z [winston-test] info: 
+2020-02-21T05:47:27.333Z [winston-test] info: 0
+2020-02-21T05:47:51.229Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:47:51.231Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:47:51.231Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:47:51.232Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:48:19.356Z [winston-test] info: 
+2020-02-21T05:48:19.356Z [winston-test] info: 
+2020-02-21T05:48:19.356Z [winston-test] info: 
+2020-02-21T05:48:19.357Z [winston-test] info: 0
+2020-02-21T05:48:19.372Z [winston-test] info: 
+2020-02-21T05:48:19.372Z [winston-test] info: 
+2020-02-21T05:48:19.373Z [winston-test] info: 
+2020-02-21T05:48:19.373Z [winston-test] info: 0
+2020-02-21T05:48:54.366Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:48:54.368Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:48:54.369Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:48:54.370Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:48:54.370Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:48:54.370Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:19.774Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:50:19.776Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:19.776Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:19.777Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:50:19.777Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:19.778Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:20.685Z [winston-test] info: 
+2020-02-21T05:50:20.685Z [winston-test] info: 
+2020-02-21T05:50:20.685Z [winston-test] info: 
+2020-02-21T05:50:20.685Z [winston-test] info: 0
+2020-02-21T05:50:20.696Z [winston-test] info: 
+2020-02-21T05:50:20.697Z [winston-test] info: 
+2020-02-21T05:50:20.697Z [winston-test] info: 
+2020-02-21T05:50:20.697Z [winston-test] info: 0
+2020-02-21T05:50:48.030Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:50:48.032Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:48.032Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:48.033Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:50:48.033Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:48.033Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:50:49.116Z [winston-test] info: 
+2020-02-21T05:50:49.116Z [winston-test] info: 
+2020-02-21T05:50:49.117Z [winston-test] info: 
+2020-02-21T05:50:49.117Z [winston-test] info: 0
+2020-02-21T05:50:49.130Z [winston-test] info: 
+2020-02-21T05:50:49.130Z [winston-test] info: 
+2020-02-21T05:50:49.130Z [winston-test] info: 
+2020-02-21T05:50:49.131Z [winston-test] info: 0
+2020-02-21T05:52:20.030Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:52:20.032Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:52:20.033Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:52:20.034Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:52:20.035Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:52:20.035Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:52:20.771Z [winston-test] info: 
+2020-02-21T05:52:20.771Z [winston-test] info: 
+2020-02-21T05:52:20.772Z [winston-test] info: 
+2020-02-21T05:52:20.772Z [winston-test] info: 0
+2020-02-21T05:52:20.783Z [winston-test] info: 
+2020-02-21T05:52:20.784Z [winston-test] info: 
+2020-02-21T05:52:20.784Z [winston-test] info: 
+2020-02-21T05:52:20.785Z [winston-test] info: 0
+2020-02-21T05:53:15.470Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:53:15.471Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:53:15.472Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:53:15.472Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:53:15.473Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:53:15.473Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:42.157Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:54:42.160Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:42.160Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:42.161Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:54:42.161Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:42.162Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:45.287Z [winston-test] info: createModel called1
+2020-02-21T05:54:45.288Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T05:54:45.288Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T05:54:47.203Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T05:54:47.851Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T05:54:48.579Z [winston-test] info: OK
+2020-02-21T05:54:49.788Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T05:54:50.467Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T05:54:51.563Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:0
+2020-02-21T05:54:51.563Z [winston-test] info: 2222errorMessage:프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:51.563Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T05:54:51.564Z [winston-test] info: 2222irgModel.irgConfigInfoList.length:1
+2020-02-21T05:54:51.564Z [winston-test] info: 2222errorMessage:
+2020-02-21T05:54:51.564Z [winston-test] info: OK
+2020-02-21T05:54:51.566Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T05:54:51.567Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T05:54:51.570Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T05:54:51.570Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T05:54:53.235Z [winston-test] info: 
+2020-02-21T05:54:53.236Z [winston-test] info: 
+2020-02-21T05:54:53.236Z [winston-test] info: 
+2020-02-21T05:54:53.236Z [winston-test] info: 0
+2020-02-21T05:54:53.250Z [winston-test] info: 
+2020-02-21T05:54:53.251Z [winston-test] info: 
+2020-02-21T05:54:53.251Z [winston-test] info: 
+2020-02-21T05:54:53.252Z [winston-test] info: 1
+2020-02-21T05:54:53.252Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, btn btn-primary btn-lg disabled, DF, , false}
+2020-02-21T06:01:53.039Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:01:53.042Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:01:53.043Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:01:53.043Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:07:09.109Z [winston-test] info: createModel called1
+2020-02-21T06:07:09.111Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:07:09.111Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:07:11.027Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:07:11.722Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:07:12.370Z [winston-test] info: OK
+2020-02-21T06:07:13.626Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:07:14.266Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:07:14.786Z [winston-test] info: OK
+2020-02-21T06:07:36.011Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:07:36.011Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:07:36.012Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:07:36.012Z [winston-test] info: OK
+2020-02-21T06:07:36.014Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:07:36.015Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:07:36.021Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:07:36.021Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:07:38.074Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:07:38.075Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:07:38.075Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:07:38.075Z [winston-test] info: 0
+2020-02-21T06:07:38.083Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:07:38.084Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:07:38.084Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:07:38.084Z [winston-test] info: 1
+2020-02-21T06:07:38.085Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, isSuccess, DF, DF, false}
+2020-02-21T06:11:23.909Z [winston-test] info: createModel called1
+2020-02-21T06:11:23.911Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:11:23.911Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:11:26.010Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:11:26.651Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:11:27.330Z [winston-test] info: OK
+2020-02-21T06:11:27.898Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:11:28.906Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:11:29.522Z [winston-test] info: OK
+2020-02-21T06:11:30.427Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:11:30.427Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:11:30.428Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:11:30.428Z [winston-test] info: OK
+2020-02-21T06:11:30.430Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:11:30.430Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:11:30.432Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:11:30.432Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:11:34.356Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:11:34.357Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:11:34.357Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:11:34.358Z [winston-test] info: OK
+2020-02-21T06:11:34.359Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:11:34.360Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:11:34.362Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:11:34.363Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:12:13.034Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:12:13.034Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:12:13.035Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:12:13.035Z [winston-test] info: OK
+2020-02-21T06:12:13.036Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:12:13.036Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:12:13.037Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:12:13.037Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:12:13.827Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:12:13.827Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:12:13.827Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:12:13.827Z [winston-test] info: 0
+2020-02-21T06:12:13.841Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:12:13.842Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:12:13.842Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:12:13.842Z [winston-test] info: 1
+2020-02-21T06:12:13.843Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, DF, FD, DF, false}
+2020-02-21T06:13:05.716Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:13:05.718Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:13:05.719Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:13:05.720Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:13:07.324Z [winston-test] info: createModel called1
+2020-02-21T06:13:07.324Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:13:07.325Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:13:09.554Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:13:10.282Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:13:10.858Z [winston-test] info: OK
+2020-02-21T06:13:11.667Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:13:12.298Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:13:12.818Z [winston-test] info: OK
+2020-02-21T06:13:35.234Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:13:35.235Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:13:35.235Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:13:35.235Z [winston-test] info: OK
+2020-02-21T06:13:35.237Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:13:35.237Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:13:35.240Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:13:35.240Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:13:41.002Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:13:41.003Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:13:41.003Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:13:41.003Z [winston-test] info: 0
+2020-02-21T06:13:41.018Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:13:41.018Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:13:41.019Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:13:41.019Z [winston-test] info: 1
+2020-02-21T06:13:41.019Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, DF, DF, DF, false}
+2020-02-21T06:14:00.619Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:14:00.620Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:14:00.620Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:14:00.621Z [winston-test] info: 0
+2020-02-21T06:14:00.625Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:14:00.625Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:14:00.626Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:14:00.626Z [winston-test] info: 1
+2020-02-21T06:14:00.626Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, DF, DF, DF, false}
+2020-02-21T06:17:58.371Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:17:58.373Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:17:58.373Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:17:58.374Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:00.205Z [winston-test] info: createModel called1
+2020-02-21T06:18:00.205Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:00.205Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:02.715Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:18:03.418Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:18:03.994Z [winston-test] info: OK
+2020-02-21T06:18:04.578Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:18:05.170Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:18:05.851Z [winston-test] info: OK
+2020-02-21T06:18:07.869Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:07.870Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:07.870Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:07.870Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:07.871Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:07.872Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:07.873Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:07.874Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:18:20.786Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:20.786Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:20.787Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:20.787Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:20.788Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:20.788Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:20.789Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:20.790Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:18:27.938Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:27.938Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:27.938Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:27.939Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:27.939Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:27.939Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:27.940Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:27.940Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:18:35.890Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:35.890Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:35.890Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:35.891Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:35.891Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:35.891Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:35.892Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:35.892Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:18:41.235Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:41.235Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:41.236Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:41.236Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:41.236Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:41.237Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:41.238Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:41.238Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:18:54.090Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:18:54.090Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:18:54.090Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:18:54.091Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:18:54.091Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:18:54.091Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:18:54.092Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:18:54.092Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:19:54.857Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:19:54.858Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:19:54.858Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:19:54.858Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:19:54.859Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:19:54.859Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:19:54.860Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:19:54.860Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:20:01.945Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:20:01.946Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:20:01.946Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:20:01.946Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:20:01.947Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:20:01.947Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:01.948Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:20:01.948Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:20:45.890Z [winston-test] info: createModel called2
+2020-02-21T06:20:45.890Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:20:45.891Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:20:47.410Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:20:48.458Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:20:48.458Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:20:48.458Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:20:48.459Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:20:48.459Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:20:48.459Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:48.460Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:48.461Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:20:48.461Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr><tr class="table-warning"><th scope="row">tetst</th><td></td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:20:54.058Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:20:54.058Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:20:54.058Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:20:54.059Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:20:54.059Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:20:54.060Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:54.061Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:54.062Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:20:54.062Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr><tr class="table-warning"><th scope="row">tetst</th><td></td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:20:57.242Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:20:57.242Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:20:57.243Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:20:57.243Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:20:57.243Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:20:57.244Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:57.245Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:20:57.246Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:20:57.246Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr><tr class="table-warning"><th scope="row">tetst</th><td></td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:21:38.266Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:21:38.266Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:21:38.267Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:21:38.267Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:21:38.268Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:21:38.268Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:21:38.269Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:21:38.269Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:21:38.270Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr><tr class="table-warning"><th scope="row">tetst</th><td></td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:23:19.996Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:19.998Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:19.998Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:19.999Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:23:20.000Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:20.000Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:20.000Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:20.001Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:23:24.413Z [winston-test] info: createModel called1
+2020-02-21T06:23:24.414Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:24.414Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:23:25.978Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:23:27.450Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:23:28.144Z [winston-test] info: OK
+2020-02-21T06:23:32.755Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:32.755Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:32.755Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:32.756Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:23:32.756Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:23:32.756Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:32.757Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:32.757Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:23:32.759Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:23:32.759Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:23:32.761Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:23:32.762Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:23:51.466Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:51.466Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:51.466Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:51.467Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:23:51.467Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:23:51.467Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:51.468Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:51.468Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:23:51.469Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:23:51.469Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:23:51.470Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:23:51.470Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:23:54.514Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:23:54.514Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:54.514Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:54.515Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:23:54.515Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:23:54.515Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:23:54.515Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:23:54.516Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:23:54.517Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:23:54.518Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:23:54.519Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:23:54.519Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:42:39.350Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.353Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.354Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.354Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.354Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.355Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.355Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:42:39.355Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\99. etc
+2020-02-21T06:45:30.325Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.328Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.328Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.329Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.329Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.330Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.330Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:30.330Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:39.876Z [winston-test] info: createModel called1
+2020-02-21T06:45:39.877Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:45:39.877Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:45:42.097Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:45:43.249Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:45:44.601Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:45:44.601Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:44.601Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:45:44.602Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:45:44.602Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:45:44.602Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:44.603Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:45:44.603Z [winston-test] info: UpdateCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:45:44.605Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:45:44.605Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:45:44.607Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:45:44.608Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>22</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:45:54.910Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.910Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.910Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.911Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.911Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.912Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.912Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:54.912Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:57.312Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:45:57.313Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:57.313Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:57.313Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:45:57.313Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:45:57.314Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:57.314Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:45:57.314Z [winston-test] info: IR 문서 출력 경로를 입력해주시기 바랍니다.
+2020-02-21T06:45:57.315Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:45:57.315Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:45:57.316Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:45:57.317Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>22</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:46:06.682Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.682Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.683Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.683Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.684Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.684Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.684Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:06.685Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:10.417Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:46:10.417Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:46:10.417Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:46:10.418Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:46:10.418Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:46:10.418Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:46:10.418Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:46:10.419Z [winston-test] info: OK
+2020-02-21T06:46:10.419Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:46:10.420Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:46:10.421Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:46:10.422Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>22</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:46:13.633Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:46:13.633Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:46:13.634Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:13.634Z [winston-test] info: 0
+2020-02-21T06:46:13.649Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:46:13.650Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:46:13.650Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:46:13.650Z [winston-test] info: 1
+2020-02-21T06:46:13.651Z [winston-test] info: irgModel.irgConfigInfoList[0] {test, 22, , , , , false}
+2020-02-21T06:53:45.323Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:53:45.325Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:53:45.325Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:53:45.325Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:53:45.326Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:53:45.326Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:53:45.327Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:53:45.327Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:53:47.115Z [winston-test] info: createModel called1
+2020-02-21T06:53:47.116Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:53:47.116Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:53:51.633Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:53:52.728Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:53:53.713Z [winston-test] info: OK
+2020-02-21T06:53:57.147Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:54:01.360Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:54:03.570Z [winston-test] info: OK
+2020-02-21T06:54:06.233Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:54:06.233Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:54:06.233Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:54:06.234Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:54:06.234Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:54:06.234Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:54:06.235Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:54:06.235Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:54:06.237Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:54:06.237Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:54:06.240Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:54:06.240Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:54:10.617Z [winston-test] info: createModel called2
+2020-02-21T06:54:10.617Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:54:10.617Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:54:12.976Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T06:54:14.576Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T06:54:15.248Z [winston-test] info: OK
+2020-02-21T06:54:16.328Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:54:19.433Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:54:23.464Z [winston-test] info: OK
+2020-02-21T06:54:25.657Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535, false}
+2020-02-21T06:54:25.832Z [winston-test] info: Head revision=724
+2020-02-21T06:54:31.537Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:54:31.537Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:54:31.538Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:54:31.538Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:54:31.538Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:54:31.539Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T06:54:31.539Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T06:54:31.539Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-21T06:54:31.540Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:54:31.540Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:54:31.541Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:54:31.542Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:54:31.542Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr><tr class="table-warning"><th scope="row">TEST1</th><td>55</td><td>66</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:54:40.386Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.386Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.387Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.387Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.388Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.388Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.389Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:40.389Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.394Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.395Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.395Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.396Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.396Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.396Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.397Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:44.397Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:50.874Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.875Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.875Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.875Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.876Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.876Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.877Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:50.877Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:51.928Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:54:51.929Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:51.929Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:51.929Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T06:54:51.929Z [winston-test] info: irgModel.irgConfigInfoList.length:2
+2020-02-21T06:54:51.929Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:51.930Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T06:54:51.930Z [winston-test] info: OK
+2020-02-21T06:54:51.930Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T06:54:51.931Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:54:51.931Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T06:54:51.932Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T06:54:51.933Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr><tr class="table-warning"><th scope="row">TEST1</th><td>55</td><td>66</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T06:54:54.497Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:54:54.497Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:54:54.497Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:54.498Z [winston-test] info: 0
+2020-02-21T06:54:54.504Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:54:54.504Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T06:54:54.505Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T06:54:54.505Z [winston-test] info: 2
+2020-02-21T06:54:54.506Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535, true}
+2020-02-21T06:54:54.507Z [winston-test] info: irgModel.irgConfigInfoList[1] {TEST1, 55, 66, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, FOOTBALL7, KK753030, false}
+2020-02-21T06:55:29.363Z [winston-test] info: createModel called1
+2020-02-21T06:55:29.365Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T06:55:29.365Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T06:55:32.633Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T06:55:34.352Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T06:55:36.120Z [winston-test] info: OK
+2020-02-21T06:55:36.760Z [winston-test] info: irgModel.irgConfigInfoList[0] {, , , D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535, false}
+2020-02-21T06:55:37.034Z [winston-test] info: Head revision=724
+2020-02-21T07:22:10.968Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.969Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.969Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.970Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.970Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.971Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.971Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:10.972Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.568Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.570Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.570Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.571Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.571Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:22:15.572Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:18.851Z [winston-test] info: createModel called1
+2020-02-21T07:23:18.853Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:23:18.853Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:23:21.079Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:23:24.655Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:23:25.183Z [winston-test] info: OK
+2020-02-21T07:23:27.145Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T07:23:29.159Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T07:23:31.030Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T07:23:33.134Z [winston-test] info: OK
+2020-02-21T07:23:34.279Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535!, false}
+2020-02-21T07:23:34.446Z [winston-test] info: Head revision=724
+2020-02-21T07:23:43.347Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.348Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.348Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.348Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.349Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.349Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.350Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:43.350Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.427Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.428Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.428Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.429Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.429Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.429Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.430Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:47.430Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:54.363Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.363Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.365Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.365Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:54.365Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:56.006Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:23:56.007Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:56.007Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:56.007Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:23:56.008Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:23:56.008Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:56.008Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:23:56.008Z [winston-test] info: OK
+2020-02-21T07:23:56.010Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:23:56.010Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:23:56.011Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:23:56.012Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr></tbody>
+2020-02-21T07:23:58.167Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:23:58.167Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:23:58.167Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:58.168Z [winston-test] info: 0
+2020-02-21T07:23:58.173Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:23:58.173Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:23:58.173Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:23:58.174Z [winston-test] info: 1
+2020-02-21T07:23:58.174Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535!, true}
+2020-02-21T07:24:12.383Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:24:12.383Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:24:12.383Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:24:12.383Z [winston-test] info: 0
+2020-02-21T07:24:12.385Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:24:12.385Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:24:12.386Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:24:12.386Z [winston-test] info: 1
+2020-02-21T07:24:12.386Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535!, true}
+2020-02-21T07:24:40.554Z [winston-test] info: createModel called1
+2020-02-21T07:24:40.556Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:24:40.556Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:24:42.559Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:24:43.559Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:24:53.178Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.178Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.179Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.179Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.180Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.180Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.180Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:53.180Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.884Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.885Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.885Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.886Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.886Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.886Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.887Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:24:56.887Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:25:04.363Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.363Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.364Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.365Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.365Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:04.366Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:08.399Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:25:08.399Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:25:08.399Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:25:08.400Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:25:08.400Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:25:08.400Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:25:08.400Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:25:08.401Z [winston-test] info: OK
+2020-02-21T07:25:08.402Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:25:08.402Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:25:08.404Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:25:08.405Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>11</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:25:12.551Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:25:12.552Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:25:12.552Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:12.552Z [winston-test] info: 0
+2020-02-21T07:25:12.566Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:25:12.566Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:25:12.566Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:25:12.566Z [winston-test] info: 1
+2020-02-21T07:25:12.567Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 11, , , , , false}
+2020-02-21T07:26:49.681Z [winston-test] info: createModel called1
+2020-02-21T07:26:49.684Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:26:49.685Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:26:51.639Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:26:52.382Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:26:53.302Z [winston-test] info: OK
+2020-02-21T07:26:54.881Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T07:26:56.806Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T07:27:09.458Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.459Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.459Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.459Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.460Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.460Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.461Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:09.461Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.608Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.608Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.609Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.609Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.610Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.610Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.610Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:13.611Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:20.197Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.198Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.198Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.199Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.199Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.199Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.200Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:20.200Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:21.086Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:27:21.086Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:21.087Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:21.087Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:27:21.088Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:27:21.088Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:21.088Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:27:21.089Z [winston-test] info: OK
+2020-02-21T07:27:21.090Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:27:21.091Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:27:21.093Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:27:21.093Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:27:21.982Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:21.983Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:21.983Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:21.983Z [winston-test] info: 0
+2020-02-21T07:27:21.995Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:21.995Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:21.995Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:21.996Z [winston-test] info: 1
+2020-02-21T07:27:21.996Z [winston-test] info: irgModel.irgConfigInfoList[0] {tgcb, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, , , false}
+2020-02-21T07:27:39.262Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:39.263Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:39.263Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:39.263Z [winston-test] info: 0
+2020-02-21T07:27:39.266Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:39.267Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:27:39.267Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:27:39.268Z [winston-test] info: 1
+2020-02-21T07:27:39.268Z [winston-test] info: irgModel.irgConfigInfoList[0] {tgcb, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, , , false}
+2020-02-21T07:28:37.314Z [winston-test] info: createModel called1
+2020-02-21T07:28:37.315Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:28:37.316Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:28:39.279Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:28:39.999Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:28:48.025Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.026Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.027Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.027Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.027Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.028Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.028Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:48.029Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.024Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.024Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.025Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.025Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.025Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.025Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.026Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:52.026Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:57.504Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.505Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.506Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.506Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.507Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.507Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.507Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:57.508Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:28:58.671Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:28:58.671Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:58.672Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:58.672Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:28:58.672Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:28:58.673Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:58.673Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\99. etc
+2020-02-21T07:28:58.673Z [winston-test] info: OK
+2020-02-21T07:28:58.675Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:28:58.676Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:28:58.678Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:28:58.678Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>22</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:29:00.631Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:29:00.631Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:29:00.631Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:29:00.632Z [winston-test] info: 0
+2020-02-21T07:29:00.639Z [winston-test] info: isSuccess:undefined
+2020-02-21T07:29:00.647Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:29:00.647Z [winston-test] info: C:\fakepath\99. etc
+2020-02-21T07:29:00.647Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:29:00.648Z [winston-test] info: 1
+2020-02-21T07:29:00.648Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 22, , , , , false}
+2020-02-21T07:29:00.650Z [winston-test] info: isSuccess:undefined
+2020-02-21T07:30:52.756Z [winston-test] info: createModel called1
+2020-02-21T07:30:52.758Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:30:52.759Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:30:54.350Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:30:59.726Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.726Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.727Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.727Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.727Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.727Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.728Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:30:59.728Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.745Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.746Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.746Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.746Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.747Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.747Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.747Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:03.748Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:08.193Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.193Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.194Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.194Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.194Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.195Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.195Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.196Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:08.966Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:31:08.966Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:08.967Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:08.967Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:31:08.967Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:31:08.968Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:08.968Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:08.968Z [winston-test] info: OK
+2020-02-21T07:31:08.970Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:31:08.971Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:31:08.973Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:31:08.973Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td></td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:31:09.846Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:09.847Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:09.847Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:09.848Z [winston-test] info: 0
+2020-02-21T07:31:09.854Z [winston-test] info: isSuccess:undefined
+2020-02-21T07:31:09.862Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:09.862Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:31:09.862Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:31:09.863Z [winston-test] info: 1
+2020-02-21T07:31:09.863Z [winston-test] info: irgModel.irgConfigInfoList[0] {tgcb, , , , , , false}
+2020-02-21T07:31:09.866Z [winston-test] info: isSuccess:undefined
+2020-02-21T07:33:10.707Z [winston-test] info: createModel called1
+2020-02-21T07:33:10.709Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:33:10.709Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:33:12.942Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:33:14.206Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:33:14.982Z [winston-test] info: OK
+2020-02-21T07:33:20.067Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.068Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.068Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.068Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.069Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.069Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.069Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:20.069Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.865Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.866Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.866Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.867Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.867Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.867Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.867Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:23.868Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:32.561Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.561Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.562Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.562Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.563Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.563Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.563Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:32.564Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:33.918Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:33:33.918Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:33.919Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:33.919Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:33:33.919Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:33:33.920Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:33.920Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:33.920Z [winston-test] info: OK
+2020-02-21T07:33:33.922Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:33:33.923Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:33:33.924Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:33:33.924Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGV</th><td>312</td><td>2</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:33:38.927Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:38.927Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:38.927Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:38.927Z [winston-test] info: 0
+2020-02-21T07:33:38.934Z [winston-test] info: undefined
+2020-02-21T07:33:38.940Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:38.941Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:33:38.941Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:33:38.941Z [winston-test] info: 1
+2020-02-21T07:33:38.941Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGV, 312, 2, , , , false}
+2020-02-21T07:33:38.944Z [winston-test] info: undefined
+2020-02-21T07:35:13.555Z [winston-test] info: createModel called1
+2020-02-21T07:35:13.558Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:35:13.558Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:35:15.271Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:35:19.550Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:35:28.694Z [winston-test] info: OK
+2020-02-21T07:35:35.452Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.453Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.453Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.454Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.454Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.455Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.455Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:35.456Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.134Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.134Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.135Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.135Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.135Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.136Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.136Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:39.136Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:43.334Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.335Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.335Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.335Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.336Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.336Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.336Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:43.337Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:48.174Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:35:48.175Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:48.175Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:48.175Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:35:48.176Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:35:48.176Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:48.176Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:48.176Z [winston-test] info: OK
+2020-02-21T07:35:48.178Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:35:48.178Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:35:48.180Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:35:48.180Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>23</td><td>434</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:35:56.695Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:56.695Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:56.696Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:56.696Z [winston-test] info: 0
+2020-02-21T07:35:56.703Z [winston-test] info: isSuccess:false
+2020-02-21T07:35:56.712Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:56.713Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:35:56.713Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:35:56.713Z [winston-test] info: 1
+2020-02-21T07:35:56.714Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 23, 434, , , , false}
+2020-02-21T07:35:56.717Z [winston-test] info: isSuccess:false
+2020-02-21T07:37:40.297Z [winston-test] info: createModel called1
+2020-02-21T07:37:40.299Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:37:40.299Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:37:41.791Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:37:42.655Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:37:43.262Z [winston-test] info: OK
+2020-02-21T07:37:48.490Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.492Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.492Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.493Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.494Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.494Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.495Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:48.495Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.485Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.486Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.486Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.486Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.487Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.487Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.488Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:52.488Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:56.472Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.472Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.473Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.474Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.474Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.474Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.475Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:56.475Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:37:57.590Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:37:57.591Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:57.591Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:57.591Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:37:57.592Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:37:57.592Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:57.592Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:37:57.593Z [winston-test] info: OK
+2020-02-21T07:37:57.594Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:37:57.595Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:37:57.597Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:37:57.597Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">test</th><td>22</td><td>33</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:38:01.041Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:38:01.041Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:38:01.041Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:38:01.042Z [winston-test] info: 0
+2020-02-21T07:38:01.048Z [winston-test] info: isSuccess:false
+2020-02-21T07:38:01.058Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:38:01.058Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:38:01.058Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:38:01.059Z [winston-test] info: 1
+2020-02-21T07:38:01.059Z [winston-test] info: irgModel.irgConfigInfoList[0] {test, 22, 33, , , , false}
+2020-02-21T07:38:01.062Z [winston-test] info: isSuccess:false
+2020-02-21T07:39:47.969Z [winston-test] info: createModel called1
+2020-02-21T07:39:47.971Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:39:47.972Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:39:50.006Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:39:50.662Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:39:51.677Z [winston-test] info: OK
+2020-02-21T07:39:57.322Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.322Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.323Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.323Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.324Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.324Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.324Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:39:57.325Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.202Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.202Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.203Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.203Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.204Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.204Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.205Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:01.205Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:05.585Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.586Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.586Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.587Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.587Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.588Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.588Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:05.589Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:06.613Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:40:06.614Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:06.614Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:06.614Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:40:06.615Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:40:06.615Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:06.615Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:06.616Z [winston-test] info: OK
+2020-02-21T07:40:06.617Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:40:06.618Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:40:06.620Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:40:06.620Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:40:07.654Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:07.655Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:07.655Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:07.655Z [winston-test] info: 0
+2020-02-21T07:40:07.663Z [winston-test] info: isSuccess:false
+2020-02-21T07:40:07.673Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:07.673Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:07.673Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:07.674Z [winston-test] info: 1
+2020-02-21T07:40:07.674Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T07:40:07.677Z [winston-test] info: isSuccess:false
+2020-02-21T07:40:22.941Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:22.942Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:22.942Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:22.942Z [winston-test] info: 0
+2020-02-21T07:40:22.944Z [winston-test] info: isSuccess:false
+2020-02-21T07:40:22.946Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:22.947Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:40:22.947Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:40:22.947Z [winston-test] info: 1
+2020-02-21T07:40:22.948Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T07:40:22.951Z [winston-test] info: isSuccess:false
+2020-02-21T07:41:16.161Z [winston-test] info: createModel called1
+2020-02-21T07:41:16.163Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:41:16.164Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:41:18.078Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:41:18.766Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:41:19.590Z [winston-test] info: OK
+2020-02-21T07:41:24.817Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.818Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.818Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.819Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.819Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.819Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.819Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:24.820Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.630Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.631Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.632Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.632Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.633Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.633Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.633Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:28.634Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:32.502Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.502Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.503Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.503Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.504Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.504Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.505Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:32.505Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:35.230Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:41:35.230Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:35.230Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:35.230Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:41:35.231Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:41:35.231Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:35.232Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:35.232Z [winston-test] info: OK
+2020-02-21T07:41:35.233Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:41:35.234Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:41:35.236Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:41:35.236Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>312</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:41:38.046Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:38.046Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:38.047Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:38.047Z [winston-test] info: 0
+2020-02-21T07:41:38.053Z [winston-test] info: isSuccess:false
+2020-02-21T07:41:38.062Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:38.062Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:41:38.063Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:41:38.063Z [winston-test] info: 1
+2020-02-21T07:41:38.064Z [winston-test] info: irgModel.irgConfigInfoList[0] {tgcb, 312, 22, , , , false}
+2020-02-21T07:41:38.066Z [winston-test] info: isSuccess:false
+2020-02-21T07:43:00.441Z [winston-test] info: createModel called1
+2020-02-21T07:43:00.442Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:43:00.443Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:43:02.142Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:43:02.909Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:43:03.525Z [winston-test] info: OK
+2020-02-21T07:43:09.360Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.361Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.361Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.362Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.362Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.362Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.362Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:09.363Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.370Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.370Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.371Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.371Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.372Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.372Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.373Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:13.373Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:17.546Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.546Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.547Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.547Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.547Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.548Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.548Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:17.549Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:18.365Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:43:18.366Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:18.366Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:18.366Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:43:18.366Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:43:18.367Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:18.367Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:18.367Z [winston-test] info: OK
+2020-02-21T07:43:18.369Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:43:18.369Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:43:18.371Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:43:18.372Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:43:19.014Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:19.014Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:19.014Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:19.014Z [winston-test] info: 0
+2020-02-21T07:43:19.020Z [winston-test] info: isSuccess:false
+2020-02-21T07:43:19.028Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:19.028Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:43:19.029Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:43:19.029Z [winston-test] info: 1
+2020-02-21T07:43:19.029Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T07:43:19.032Z [winston-test] info: isSuccess:false
+2020-02-21T07:46:09.848Z [winston-test] info: createModel called1
+2020-02-21T07:46:09.850Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:46:09.850Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:46:11.797Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:46:12.685Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:46:13.805Z [winston-test] info: OK
+2020-02-21T07:46:18.055Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.056Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.057Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.057Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.058Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.059Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.059Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:18.060Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.754Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.755Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.756Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.756Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.756Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.757Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.757Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:21.757Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:25.380Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.381Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.381Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.381Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.382Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.382Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.382Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:25.383Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:26.341Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:46:26.341Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:26.341Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:26.342Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:46:26.342Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:46:26.342Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:26.342Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:26.343Z [winston-test] info: OK
+2020-02-21T07:46:26.344Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:46:26.344Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:46:26.347Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:46:26.347Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tgcb</th><td>132</td><td>23</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:46:30.093Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:30.094Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:30.094Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:30.094Z [winston-test] info: 0
+2020-02-21T07:46:30.101Z [winston-test] info: isSuccess:false
+2020-02-21T07:46:30.109Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:30.109Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:46:30.109Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:46:30.109Z [winston-test] info: 1
+2020-02-21T07:46:30.110Z [winston-test] info: irgModel.irgConfigInfoList[0] {tgcb, 132, 23, , , , false}
+2020-02-21T07:46:30.113Z [winston-test] info: isSuccess:false
+2020-02-21T07:50:06.505Z [winston-test] info: createModel called1
+2020-02-21T07:50:06.507Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:50:06.507Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:50:07.886Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:50:09.510Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:50:15.646Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.646Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.647Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.647Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.648Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.648Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.648Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:15.649Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:19.472Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.473Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.474Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.474Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.475Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.475Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.476Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:19.476Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:23.408Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.409Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.409Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.410Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.410Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.410Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.410Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:23.411Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:24.238Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:50:24.238Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:24.239Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:24.239Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:50:24.240Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:50:24.240Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:24.240Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:24.241Z [winston-test] info: OK
+2020-02-21T07:50:24.243Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:50:24.243Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:50:24.245Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:50:24.246Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">tset</th><td>22</td><td></td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:50:27.302Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:27.302Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:27.302Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:27.303Z [winston-test] info: 0
+2020-02-21T07:50:27.312Z [winston-test] info: isSuccess:true
+2020-02-21T07:50:27.319Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:27.319Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:50:27.320Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:50:27.320Z [winston-test] info: 1
+2020-02-21T07:50:27.320Z [winston-test] info: irgModel.irgConfigInfoList[0] {tset, 22, , , , , false}
+2020-02-21T07:50:27.326Z [winston-test] info: isSuccess:true
+2020-02-21T07:51:29.592Z [winston-test] info: createModel called1
+2020-02-21T07:51:29.594Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:51:29.594Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:51:31.685Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:51:32.397Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:51:33.013Z [winston-test] info: OK
+2020-02-21T07:51:38.163Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.164Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.165Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.165Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.165Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.166Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.166Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:38.166Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.085Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.086Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.086Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.087Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.087Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.087Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.088Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:42.088Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:46.552Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.552Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.553Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.553Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.553Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.554Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.554Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:46.555Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:48.229Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:51:48.229Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:48.229Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:48.229Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:51:48.230Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:51:48.230Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:48.230Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:48.230Z [winston-test] info: OK
+2020-02-21T07:51:48.232Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:51:48.232Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:51:48.234Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:51:48.234Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T07:51:49.133Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:49.133Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:49.133Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:49.134Z [winston-test] info: 0
+2020-02-21T07:51:49.141Z [winston-test] info: isSuccess:true
+2020-02-21T07:51:49.148Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:49.149Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:51:49.149Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:51:49.149Z [winston-test] info: 1
+2020-02-21T07:51:49.149Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T07:51:49.152Z [winston-test] info: isSuccess:true
+2020-02-21T07:52:06.782Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:52:06.782Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:52:06.782Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:52:06.783Z [winston-test] info: 0
+2020-02-21T07:52:06.786Z [winston-test] info: isSuccess:true
+2020-02-21T07:52:06.792Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:52:06.792Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:52:06.792Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:52:06.793Z [winston-test] info: 1
+2020-02-21T07:52:06.793Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T07:52:06.796Z [winston-test] info: isSuccess:true
+2020-02-21T07:54:31.161Z [winston-test] info: createModel called1
+2020-02-21T07:54:31.163Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:54:31.163Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:54:34.910Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T07:54:35.565Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T07:54:36.349Z [winston-test] info: OK
+2020-02-21T07:54:39.614Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-21T07:54:42.013Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-21T07:54:43.917Z [winston-test] info: OK
+2020-02-21T07:54:45.246Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535!, false}
+2020-02-21T07:54:45.409Z [winston-test] info: Head revision=724
+2020-02-21T07:54:56.728Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.728Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.729Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.729Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.730Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.730Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.730Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:54:56.730Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.877Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.877Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.878Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.878Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.878Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.879Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.879Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:00.879Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:05.533Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.534Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.534Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.534Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.535Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.535Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.536Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:05.536Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:09.509Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:55:09.510Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:09.510Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:09.510Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:55:09.511Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:55:09.511Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:09.511Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:09.511Z [winston-test] info: OK
+2020-02-21T07:55:09.513Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:55:09.513Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:55:09.518Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:55:09.518Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>false</td></tr></tbody>
+2020-02-21T07:55:14.197Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:55:14.198Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:14.198Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:14.199Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:55:14.199Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:55:14.199Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:14.200Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:14.200Z [winston-test] info: OK
+2020-02-21T07:55:14.201Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:55:14.202Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:55:14.203Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:55:14.203Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr></tbody>
+2020-02-21T07:55:18.038Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:18.039Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:18.039Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:18.040Z [winston-test] info: 0
+2020-02-21T07:55:18.044Z [winston-test] info: isSuccess:true
+2020-02-21T07:55:18.048Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:18.048Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:18.049Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T07:55:18.049Z [winston-test] info: 1
+2020-02-21T07:55:18.049Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, D:\01. Project Repository\PDMtemp for MDX Converter\trunk, junhojohn, wnsgh3535!, true}
+2020-02-21T07:55:18.053Z [winston-test] info: isSuccess:true
+2020-02-21T07:55:31.029Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:55:31.030Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:31.030Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:31.030Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:55:31.031Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T07:55:31.031Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:31.031Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T07:55:31.031Z [winston-test] info: OK
+2020-02-21T07:55:31.032Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T07:55:31.032Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T07:55:31.033Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T07:55:31.034Z [winston-test] info: rowItem:<tbody><tr><th scope="row">TGCB</th><td>31</td><td>22</td><td>true</td><td>true</td></tr></tbody>
+2020-02-21T07:57:17.062Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:57:17.064Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T07:57:17.064Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T07:57:17.064Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T07:57:17.065Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T07:57:17.065Z [winston-test] info: irgModel.baseCodePath:
+2020-02-21T07:57:17.065Z [winston-test] info: irgModel.updateCodePath:
+2020-02-21T07:57:17.066Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T08:01:22.448Z [winston-test] info: createModel called1
+2020-02-21T08:01:22.449Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:01:22.450Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:01:25.461Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T08:01:26.157Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T08:01:26.965Z [winston-test] info: OK
+2020-02-21T08:01:32.183Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.184Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.185Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.186Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.186Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.187Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.187Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:32.188Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.568Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.568Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.569Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.570Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:35.570Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:39.398Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.399Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.399Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.399Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.400Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.400Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.401Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:39.401Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:40.477Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:01:40.477Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:40.477Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:40.477Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T08:01:40.478Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:01:40.478Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:40.478Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:40.479Z [winston-test] info: OK
+2020-02-21T08:01:40.481Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T08:01:40.481Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T08:01:40.483Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T08:01:40.484Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T08:01:41.333Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:41.333Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:41.334Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:41.334Z [winston-test] info: 0
+2020-02-21T08:01:41.341Z [winston-test] info: isSuccess:false
+2020-02-21T08:01:41.348Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:41.349Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:01:41.349Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:01:41.349Z [winston-test] info: 1
+2020-02-21T08:01:41.349Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T08:01:41.352Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:00.887Z [winston-test] info: createModel called1
+2020-02-21T08:03:00.889Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:03:00.890Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:03:04.677Z [winston-test] info: 프로젝트 이름을 입력해주세요.
+2020-02-21T08:03:05.516Z [winston-test] info: 프로젝트 이름을 입력해주세요.
+2020-02-21T08:03:10.835Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.836Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.836Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.836Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.837Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.837Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.838Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:10.838Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.424Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.424Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.425Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.425Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.425Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.426Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.426Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:14.426Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:17.922Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.923Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.923Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.924Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.924Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.924Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.925Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:17.925Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:32.732Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:03:32.732Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:32.733Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:32.733Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T08:03:32.734Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:03:32.734Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:32.734Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:32.734Z [winston-test] info: OK
+2020-02-21T08:03:32.736Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T08:03:32.737Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T08:03:32.741Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T08:03:32.742Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row"></th><td>33</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T08:03:35.812Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:35.813Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:35.813Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:35.813Z [winston-test] info: 0
+2020-02-21T08:03:35.822Z [winston-test] error: undefined
+2020-02-21T08:03:35.822Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:35.828Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:35.828Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:35.828Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:35.829Z [winston-test] info: 1
+2020-02-21T08:03:35.829Z [winston-test] info: irgModel.irgConfigInfoList[0] {, 33, 22, , , , false}
+2020-02-21T08:03:35.832Z [winston-test] error: undefined
+2020-02-21T08:03:35.832Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:42.620Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:42.621Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:42.621Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:42.621Z [winston-test] info: 0
+2020-02-21T08:03:42.625Z [winston-test] error: undefined
+2020-02-21T08:03:42.625Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:42.627Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:42.628Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:42.628Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:42.629Z [winston-test] info: 1
+2020-02-21T08:03:42.629Z [winston-test] info: irgModel.irgConfigInfoList[0] {, 33, 22, , , , false}
+2020-02-21T08:03:42.633Z [winston-test] error: undefined
+2020-02-21T08:03:42.633Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:54.494Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:54.494Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:54.494Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:54.495Z [winston-test] info: 0
+2020-02-21T08:03:54.497Z [winston-test] error: undefined
+2020-02-21T08:03:54.497Z [winston-test] info: isSuccess:false
+2020-02-21T08:03:54.499Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:54.499Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:03:54.500Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:03:54.500Z [winston-test] info: 1
+2020-02-21T08:03:54.500Z [winston-test] info: irgModel.irgConfigInfoList[0] {, 33, 22, , , , false}
+2020-02-21T08:03:54.504Z [winston-test] error: undefined
+2020-02-21T08:03:54.504Z [winston-test] info: isSuccess:false
+2020-02-21T08:05:53.256Z [winston-test] info: createModel called1
+2020-02-21T08:05:53.258Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:05:53.259Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:05:54.996Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T08:05:55.764Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T08:05:56.261Z [winston-test] info: OK
+2020-02-21T08:06:01.957Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.958Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.958Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.959Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.959Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.960Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.960Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:01.960Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.103Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.104Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.104Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.105Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.105Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.106Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.106Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:06.107Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:09.940Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.940Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.941Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.941Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.941Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.942Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.942Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:09.942Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:11.092Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:06:11.092Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:11.093Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:11.093Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T08:06:11.093Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:06:11.093Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:11.094Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:11.094Z [winston-test] info: OK
+2020-02-21T08:06:11.095Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T08:06:11.095Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T08:06:11.097Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T08:06:11.098Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T08:06:15.517Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:15.517Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:15.517Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:15.517Z [winston-test] info: 0
+2020-02-21T08:06:15.523Z [winston-test] info: irgModel.irDocInputPath:C:/Users/junhojohn/Desktop/RAD-SuperMoon 소개.txt
+2020-02-21T08:06:15.523Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:15.526Z [winston-test] error: undefined
+2020-02-21T08:06:15.526Z [winston-test] info: isSuccess:false
+2020-02-21T08:06:15.533Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:15.534Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:06:15.534Z [winston-test] info: C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:15.534Z [winston-test] info: 1
+2020-02-21T08:06:15.535Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T08:06:15.537Z [winston-test] info: irgModel.irDocInputPath:C:/Users/junhojohn/Desktop/RAD-SuperMoon 소개.txt
+2020-02-21T08:06:15.538Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\새 폴더 (2)
+2020-02-21T08:06:15.540Z [winston-test] error: undefined
+2020-02-21T08:06:15.540Z [winston-test] info: isSuccess:false
+2020-02-21T08:08:02.215Z [winston-test] info: createModel called1
+2020-02-21T08:08:02.217Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:08:02.217Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:08:07.924Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-21T08:08:08.924Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-21T08:08:09.516Z [winston-test] info: OK
+2020-02-21T08:08:16.046Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.046Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.047Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.047Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.047Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.047Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.048Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:16.048Z [winston-test] info: 3irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.206Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.207Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.207Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.208Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.208Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.208Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.209Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:20.209Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:27.452Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-21T08:08:27.452Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:27.452Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:27.453Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-21T08:08:27.453Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-21T08:08:27.453Z [winston-test] info: irgModel.baseCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:27.454Z [winston-test] info: irgModel.updateCodePath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:27.454Z [winston-test] info: OK
+2020-02-21T08:08:27.456Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-21T08:08:27.456Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-21T08:08:27.459Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-21T08:08:27.459Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>false</td></tr></tbody>
+2020-02-21T08:08:31.525Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:31.525Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:31.525Z [winston-test] info: C:/Users/junhojohn/Desktop/새 폴더 (2)/test.txt
+2020-02-21T08:08:31.526Z [winston-test] info: 0
+2020-02-21T08:08:31.532Z [winston-test] info: irgModel.irDocInputPath:C:/Users/junhojohn/Desktop/RAD-SuperMoon 소개.txt
+2020-02-21T08:08:31.533Z [winston-test] info: irgModel.irDocOutputPath:C:/Users/junhojohn/Desktop/새 폴더 (2)/test.txt
+2020-02-21T08:08:31.535Z [winston-test] info: isSuccess:true
+2020-02-21T08:08:31.543Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:31.543Z [winston-test] info: C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:08:31.544Z [winston-test] info: C:/Users/junhojohn/Desktop/새 폴더 (2)/test.txt
+2020-02-21T08:08:31.544Z [winston-test] info: 1
+2020-02-21T08:08:31.544Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, , , , false}
+2020-02-21T08:08:31.546Z [winston-test] info: irgModel.irDocInputPath:C:/Users/junhojohn/Desktop/RAD-SuperMoon 소개.txt
+2020-02-21T08:08:31.547Z [winston-test] info: irgModel.irDocOutputPath:C:/Users/junhojohn/Desktop/새 폴더 (2)/test.txt
+2020-02-21T08:08:31.548Z [winston-test] info: isSuccess:true
+2020-02-21T08:24:12.211Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.213Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.214Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.214Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.214Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.214Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.215Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법
+2020-02-21T08:24:12.215Z [winston-test] info: irgModel.irDocOutputPath:C:\fakepath\프로젝트 기반 평가 방법

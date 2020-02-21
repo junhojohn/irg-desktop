@@ -24,12 +24,12 @@ function updateIrProjectInfo(baseCodeRootFolderPath, updateCodeRootFolderPath, i
 var addIrConfigInfo = function (irgConfigInfo){
 	var db = new sqlite3.Database(dbPath);
 	db.serialize(function(){
-		var addStmt = db.prepare("INSERT OR REPLACE INTO IRConfigInfo VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+		var addStmt = db.prepare("INSERT OR REPLACE INTO IRConfigInfo VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 		addStmt.run(irgConfigInfo.projectName, 1, 
 					irgConfigInfo.projectMainVer, irgConfigInfo.projectSubVer, 
 					irgConfigInfo.svnUrl, irgConfigInfo.svnId, 
-					irgConfigInfo.svnPwd, irgConfigInfo.isConnected,
-					irgConfigInfo.isVersionOk);
+					irgConfigInfo.svnPwd, irgConfigInfo.outputFileName,
+					irgConfigInfo.isConnected, irgConfigInfo.isVersionOk);
 		addStmt.finalize();	
 	});
 	db.close();	
