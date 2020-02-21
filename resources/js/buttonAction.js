@@ -6,7 +6,7 @@
  */
 var svnRepo = require('node-svn-ultimate');
 const Swal = require('sweetalert2');
-
+const {dialog} = require('electron').remote;
 
 /**
  * winston 로거 모듈
@@ -30,7 +30,7 @@ var irgModel = {
 	updateCodePath : "",
 	irDocInputPath : "D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates",
 	irDocInputFileName : "INPUT 0738_HNB_SW_Integration_Request_Gamma2_MPI_V15a.xlsm",
-	irDocOutputPath : "C:/Users/junhojohn/Desktop/새 폴더 (2)",
+	irDocOutputPath : "",
 	irgConfigInfoList : []
 	
 }
@@ -43,7 +43,14 @@ var eventCnt = 1;
 $(document).ready(function() {
 	// 저장 폴더 경로 열기 버튼 클릭 시
 	$('#id_output_btn').on('click', (e) => {
-		window.open(irgModel.irDocOutputPath);
+		//window.open(irgModel.irDocOutputPath);
+		dialog.showOpenDialog({
+			properties: ['openFile', 'multiSelections']
+		}, function (files) {
+			if (files !== undefined) {
+				// handle files
+			}
+		});		
 	});
 	
 	// IR 생성 페이지에서 IRG 생성 버튼 클릭 시
@@ -112,7 +119,7 @@ $(document).ready(function() {
 	
 	
 	// IR 생성 NAV BAR 클릭 시
-	$('#id_navlink_ir_gen').on('click', (e) => {
+	$('#id_navlink_ir_gen, #id_next_to_irGen_btn').on('click', (e) => {
 		
 		logger.info("irgModel.irgConfigInfoList.length:" + irgModel.irgConfigInfoList.length);
 		logger.info("irgModel.baseCodePath:" + irgModel.baseCodePath);
@@ -141,19 +148,19 @@ $(document).ready(function() {
 	
 	// BaseCode 경로가 입력되었을 때
 	$('div').on('change', '#id_search_basecode_path', (e) => {
-		irgModel.baseCodePath = e.target.value;	
+		irgModel.baseCodePath = document.getElementById("id_value_basecode_path").files[0].path;	
 		logger.info("3irgModel.baseCodePath:" + irgModel.baseCodePath);
 	});
 
 	// UpdateCode 경로가 입력되었을 때	
 	$('div').on('change', '#id_search_updatecode_path', (e) => {
-		irgModel.updateCodePath = e.target.value;
+		irgModel.updateCodePath = document.getElementById("id_value_updatecode_path").files[0].path;
 		logger.info("irgModel.updateCodePath:" + irgModel.updateCodePath);
 	});
 
 	// IR 문서 출력 경로가 입력되었을 때	
 	$('div').on('change', '#id_search_output_path', (e) => {
-		irgModel.irDocOutputPath = e.target.value;		
+		irgModel.irDocOutputPath = document.getElementById("id_value_output_path").files[0].path;		
 		logger.info("irgModel.irDocOutputPath:" + irgModel.irDocOutputPath);
 	});	
 

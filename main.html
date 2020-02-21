@@ -125,7 +125,7 @@
 								
 									<span class="btn btn-primary input-file-btn" id="id_search_basecode_path">
 										찾아보기... 
-										<input type="file" id="id_value_basecode_path" onchange="this.select(); document.getElementById('id_basecode_path').value=this.value;" hidden webkitdirectory directory multiple>
+										<input type="file" id="id_value_basecode_path" onchange="this.select(); document.getElementById('id_basecode_path').value=document.getElementById('id_value_basecode_path').files[0].path;" hidden webkitdirectory directory multiple>
 									</span>
 									
 								</label>	
@@ -151,7 +151,10 @@
 								
 									<span class="btn btn-primary input-file-btn" id="id_search_updatecode_path">
 										찾아보기...
+										<!--
 										<input type="file" id="id_value_updatecode_path" onchange="document.getElementById('id_updatecode_path').value=this.value;" hidden webkitdirectory directory multiple>
+										-->
+										<input type="file" id="id_value_updatecode_path" onchange="document.getElementById('id_updatecode_path').value=document.getElementById('id_value_updatecode_path').files[0].path;" hidden webkitdirectory directory multiple>										
 									</span>
 									
 								</label>	
@@ -176,7 +179,7 @@
 								
 									<span class="btn btn-primary input-file-btn" id="id_search_output_path">
 										찾아보기...
-										<input type="file" id="id_value_output_path" onchange="document.getElementById('id_output_path').value=this.value;" hidden webkitdirectory directory multiple>
+										<input type="file" id="id_value_output_path" onchange="document.getElementById('id_output_path').value=document.getElementById('id_value_output_path').files[0].path;" hidden webkitdirectory directory multiple>
 									</span>
 									
 								</label>	
