@@ -5,18 +5,47 @@
  * SVN 모듈
  */
 var svnRepo = require('node-svn-ultimate');
+
+
+
+/**
+ * SweetAlert 모듈
+ */
 const Swal = require('sweetalert2');
-const {dialog} = require('electron').remote;
+
+
+
+/**
+ * 일렉트론 프레임워크 Dialog 모듈
+ */
+const {shell} = require('electron');
+
+
+
+/**
+ * app root path 모듈
+ */
+const appRoot = require('app-root-path'); 
+
+
 
 /**
  * winston 로거 모듈
  */
-const appRoot = require('app-root-path'); 
 const logger = require(appRoot + '/resources/js/log/winston');
+
+
+
+/**
+ * DBUtils.js 파일의 export 함수들을 사용하기 위해 import
+ */
 const DBUtils = require(appRoot + '/resources/js/DBUtils');
 
 
-/*buttonAction.js 파일의 export 함수들을 사용하기 위해 import*/
+
+/**
+ * Utils.js 파일의 export 함수들을 사용하기 위해 import
+ */
 var utils = require(appRoot + '/resources/js/Utils');
 
 
@@ -29,28 +58,25 @@ var irgModel = {
 	baseCodePath : "",
 	updateCodePath : "",
 	irDocInputPath : "D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates",
-	irDocInputFileName : "INPUT 0738_HNB_SW_Integration_Request_Gamma2_MPI_V15a.xlsm",
+	irDocInputFileName : "0000_HNB_SW_Integration_Request_.xlsm",
 	irDocOutputPath : "",
 	irgConfigInfoList : []
 	
 }
 
-var eventCnt = 1;
+
 
 /**
  * 최초에 JS파일이 로딩될 때 1번만 발생
  */	
 $(document).ready(function() {
+	
 	// 저장 폴더 경로 열기 버튼 클릭 시
-	$('#id_output_btn').on('click', (e) => {
-		//window.open(irgModel.irDocOutputPath);
-		dialog.showOpenDialog({
-			properties: ['openFile', 'multiSelections']
-		}, function (files) {
-			if (files !== undefined) {
-				// handle files
-			}
-		});		
+	
+	$('#id_output_btn').unbind('click').on('click', (e) => {
+
+		shell.showItemInFolder(irgModel.irDocOutputPath + '/' + irgModel.irDocInputFileName);
+		
 	});
 	
 	// IR 생성 페이지에서 IRG 생성 버튼 클릭 시
@@ -116,10 +142,9 @@ $(document).ready(function() {
 		  }
 		})	
 	});
-	
-	
+		
 	// IR 생성 NAV BAR 클릭 시
-	$('#id_navlink_ir_gen, #id_next_to_irGen_btn').on('click', (e) => {
+	$('#id_navlink_ir_gen, #id_next_to_irGen_btn').unbind('click').on('click', (e) => {
 		
 		logger.info("irgModel.irgConfigInfoList.length:" + irgModel.irgConfigInfoList.length);
 		logger.info("irgModel.baseCodePath:" + irgModel.baseCodePath);
@@ -137,14 +162,18 @@ $(document).ready(function() {
 		}		
 
 		// TODO 개선 필요. 아이템이 모두 삭제되었을 때에는 이전 데이터가 그대로 남아 있다.		
+		/*
 		if(irgModel.irgConfigInfoList.length > 0){
 
 			updateUITable();
 			
 		}
+		*/
+		
+		// 개선 완료. 아이템이 모두 삭제되어 irgConfigInfoList.length가 0일 때도 clear하도록 수정함.
+		updateUITable();
 		
 	});
-
 	
 	// BaseCode 경로가 입력되었을 때
 	$('div').on('change', '#id_search_basecode_path', (e) => {
@@ -263,7 +292,9 @@ function updateUITable(){
 	logger.info("rowItem:" + rowItem);		
 }	
 	
-	
+/**
+ * irgConfigInfoList의 모든 아이템을 삭제한다.
+ */ 
 var deleteAllModel = function(){
 	var length = irgModel.irgConfigInfoList.length;
 	
