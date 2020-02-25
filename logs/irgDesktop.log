@@ -6371,3 +6371,119 @@ SyntaxError: Unexpected token <
 2020-02-21T10:01:51.459Z [winston-test] info: irgModel.irDocInputPath:D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates
 2020-02-21T10:01:51.460Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
 2020-02-21T10:01:51.462Z [winston-test] info: isSuccess:true
+2020-02-24T23:29:46.341Z [winston-test] info: createModel called1
+2020-02-24T23:29:46.343Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-24T23:29:46.343Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-24T23:29:48.867Z [winston-test] info: 프로젝트 메인버전을 입력해주세요.
+2020-02-24T23:29:49.626Z [winston-test] info: 프로젝트 서브버전을 입력해주세요.
+2020-02-24T23:29:50.666Z [winston-test] info: OK
+2020-02-24T23:29:52.786Z [winston-test] info: SVN 계정 아이디를 입력해주세요.
+2020-02-24T23:29:53.282Z [winston-test] info: SVN 계정 비밀번호를 입력해주세요.
+2020-02-24T23:29:55.209Z [winston-test] info: OK
+2020-02-24T23:29:55.826Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, sdf, dsf, df, false}
+2020-02-24T23:29:55.993Z [winston-test] info: Head err=Error: Command failed: svn info "sdf" --xml --non-interactive 
+svn: E155007: 'D:\00. Pioneer\f.���͵�\2020\IRGenerator v2\ELECTRON_WORKSPACE\irg-desktop\sdf' is not a working copy
+
+2020-02-24T23:30:00.666Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-24T23:30:00.666Z [winston-test] info: irgModel.baseCodePath:
+2020-02-24T23:30:00.666Z [winston-test] info: irgModel.updateCodePath:
+2020-02-24T23:30:00.667Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-24T23:30:00.667Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-24T23:30:00.668Z [winston-test] info: irgModel.baseCodePath:
+2020-02-24T23:30:00.668Z [winston-test] info: irgModel.updateCodePath:
+2020-02-24T23:30:00.668Z [winston-test] info: BaseCode 경로를 입력해주시기 바랍니다.
+2020-02-24T23:30:00.670Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-24T23:30:00.671Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-24T23:30:00.673Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-24T23:30:00.673Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>true</td></tr></tbody>
+2020-02-24T23:30:17.677Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.677Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.678Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.678Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.679Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.679Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.680Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:17.680Z [winston-test] info: 3irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.343Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.344Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.345Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.345Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.345Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.346Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.346Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:22.347Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:27.508Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.509Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.510Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.510Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.510Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.511Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.511Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:27.511Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:29.785Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-24T23:30:29.786Z [winston-test] info: irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:29.786Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:29.786Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-24T23:30:29.787Z [winston-test] info: irgModel.irgConfigInfoList.length:1
+2020-02-24T23:30:29.787Z [winston-test] info: irgModel.baseCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:29.787Z [winston-test] info: irgModel.updateCodePath:C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:29.788Z [winston-test] info: OK
+2020-02-24T23:30:29.791Z [winston-test] info: $('#id_irg_config_table tbody').empty();
+2020-02-24T23:30:29.792Z [winston-test] info: for(var k = 0 ; k < irgModel.irgConfigInfoList.length; k++){
+2020-02-24T23:30:29.792Z [winston-test] info: $('#id_irg_config_table').append(rowItem);
+2020-02-24T23:30:29.793Z [winston-test] info: rowItem:<tbody><tr class="table-warning"><th scope="row">TGCB</th><td>31</td><td>22</td><td>false</td><td>true</td></tr></tbody>
+2020-02-24T23:30:31.242Z [winston-test] info: C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:31.242Z [winston-test] info: C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:31.242Z [winston-test] info: C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:31.243Z [winston-test] info: 0
+2020-02-24T23:30:31.245Z [winston-test] info: irgModel.irDocInputPath:D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates
+2020-02-24T23:30:31.245Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:31.249Z [winston-test] info: isSuccess:true
+2020-02-24T23:30:31.252Z [winston-test] info: C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:31.252Z [winston-test] info: C:\Users\junhojohn\Desktop\프로젝트 기반 평가 방법
+2020-02-24T23:30:31.253Z [winston-test] info: C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:31.253Z [winston-test] info: 1
+2020-02-24T23:30:31.253Z [winston-test] info: irgModel.irgConfigInfoList[0] {TGCB, 31, 22, sdf, dsf, df, false}
+2020-02-24T23:30:31.255Z [winston-test] info: irgModel.irDocInputPath:D:/00. Pioneer/f.스터디/2020/IRGenerator v2/ELECTRON_WORKSPACE/irg-desktop/templates
+2020-02-24T23:30:31.255Z [winston-test] info: irgModel.irDocOutputPath:C:\Users\junhojohn\Desktop\새 폴더 (2)
+2020-02-24T23:30:31.257Z [winston-test] info: isSuccess:true
+2020-02-25T02:19:50.586Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:19:50.588Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:19:50.588Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:19:50.588Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:19:50.589Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:19:50.589Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:19:50.589Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:19:50.590Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:19:52.313Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:19:52.313Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:19:52.313Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:19:52.313Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:19:52.314Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:19:52.314Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:19:52.314Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:19:52.314Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:20:00.704Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:20:00.705Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:20:00.705Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:20:00.705Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:20:00.706Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:20:00.706Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:20:00.706Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:20:00.706Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:22:25.378Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:22:25.380Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:22:25.381Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:22:25.381Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:22:25.382Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:22:25.382Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:22:25.382Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:22:25.383Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:22:34.665Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:22:34.665Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:22:34.666Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:22:34.666Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
+2020-02-25T02:22:34.666Z [winston-test] info: irgModel.irgConfigInfoList.length:0
+2020-02-25T02:22:34.666Z [winston-test] info: irgModel.baseCodePath:
+2020-02-25T02:22:34.667Z [winston-test] info: irgModel.updateCodePath:
+2020-02-25T02:22:34.667Z [winston-test] info: 프로젝트 설정을 등록해 주시기 바랍니다.
